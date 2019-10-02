@@ -1,0 +1,1658 @@
+# Translations template for Qihang Search PROJECT.
+# Copyright (C) 2019-2020 QHIO Technolgy Group.
+# This file is distributed under the same license as the PROJECT project.
+#
+# Translators:
+# Yangqihang, 2019
+# Wuhaodong, 2019
+msgid ""
+msgstr ""
+"Project-Id-Version: searx\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2019-01-04 16:36+0800\n"
+"PO-Revision-Date: 2017-11-01 20:31+0000\n"
+"Last-Translator: Adam Tauber <asciimoo@gmail.com>\n"
+"Language-Team: Chinese (China) (http://www.transifex.com/asciimoo/searx/"
+"language/zh_CN/)\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.3.4\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: searx/search.py:125 searx/search.py:181
+msgid "timeout"
+msgstr "超时"
+
+#: searx/search.py:135
+msgid "request exception"
+msgstr "请求异常"
+
+#: searx/search.py:144
+msgid "unexpected crash"
+msgstr "意外崩溃"
+
+#: searx/webapp.py:145
+msgid "files"
+msgstr "文件"
+
+#: searx/webapp.py:146
+msgid "general"
+msgstr "网页"
+
+#: searx/webapp.py:147
+msgid "music"
+msgstr "音乐"
+
+#: searx/webapp.py:148
+msgid "social media"
+msgstr "社交媒体"
+
+#: searx/webapp.py:149
+msgid "images"
+msgstr "图片"
+
+#: searx/webapp.py:150
+msgid "videos"
+msgstr "视频"
+
+#: searx/webapp.py:151
+msgid "it"
+msgstr "IT"
+
+#: searx/webapp.py:152
+msgid "news"
+msgstr "新闻"
+
+#: searx/webapp.py:153
+msgid "map"
+msgstr "地图"
+
+#: searx/webapp.py:154
+msgid "science"
+msgstr "学术"
+
+#: searx/webapp.py:482 searx/webapp.py:725
+msgid "Invalid settings, please edit your preferences"
+msgstr "无效的设置，请编辑你的首选项"
+
+#: searx/webapp.py:498
+msgid "Invalid settings"
+msgstr "设置无效"
+
+#: searx/webapp.py:532 searx/webapp.py:576
+msgid "search error"
+msgstr "搜索错误"
+
+#: searx/webapp.py:617
+msgid "{minutes} minute(s) ago"
+msgstr "{minutes}分钟之前"
+
+#: searx/webapp.py:619
+msgid "{hours} hour(s), {minutes} minute(s) ago"
+msgstr "{hours}小时{minutes}分钟之前"
+
+#: searx/answerers/random/answerer.py:71
+msgid "Random value generator"
+msgstr "随机数生成器"
+
+#: searx/answerers/random/answerer.py:72
+msgid "Generate different random values"
+msgstr "生成不同的随机数"
+
+#: searx/answerers/statistics/answerer.py:53
+msgid "Statistics functions"
+msgstr "统计功能"
+
+#: searx/answerers/statistics/answerer.py:54
+msgid "Compute {functions} of the arguments"
+msgstr "计算 {functions}参数"
+
+#: searx/engines/__init__.py:214
+msgid "Engine time (sec)"
+msgstr "搜索引擎时间（秒）"
+
+#: searx/engines/__init__.py:218
+msgid "Page loads (sec)"
+msgstr "页面加载 （秒）"
+
+#: searx/engines/__init__.py:222 searx/templates/oscar/results.html:95
+#: searx/templates/simple/results.html:27
+msgid "Number of results"
+msgstr "结果数"
+
+#: searx/engines/__init__.py:226
+msgid "Scores"
+msgstr "得分"
+
+#: searx/engines/__init__.py:230
+msgid "Scores per result"
+msgstr "每个结果等分"
+
+#: searx/engines/__init__.py:234
+msgid "Errors"
+msgstr "错误"
+
+#: searx/engines/google.py:213
+msgid "CAPTCHA required"
+msgstr ""
+
+#: searx/engines/pdbe.py:87
+#, fuzzy
+msgid "{title} (OBSOLETE)"
+msgstr "{title}&nbsp;(OBSOLETE)"
+
+#: searx/engines/pdbe.py:94
+msgid "This entry has been superseded by"
+msgstr "此条目已经被取代"
+
+#: searx/engines/pubmed.py:74
+msgid "No abstract is available for this publication."
+msgstr ""
+
+#: searx/plugins/https_rewrite.py:32
+msgid "Rewrite HTTP links to HTTPS if possible"
+msgstr "尽可能重定向HTTP链接到HTTPS"
+
+#: searx/plugins/infinite_scroll.py:3
+msgid "Infinite scroll"
+msgstr "无限滚动"
+
+#: searx/plugins/infinite_scroll.py:4
+msgid "Automatically load next page when scrolling to bottom of current page"
+msgstr "滚动到当前页面底部时自动加载下一页"
+
+#: searx/plugins/oa_doi_rewrite.py:9
+msgid "Open Access DOI rewrite"
+msgstr ""
+
+#: searx/plugins/oa_doi_rewrite.py:10
+msgid ""
+"Avoid paywalls by redirecting to open-access versions of publications when "
+"available"
+msgstr "重定向到可浏览的文章来避免付费墙（如果可用）"
+
+#: searx/plugins/open_results_on_new_tab.py:18
+#: searx/templates/entropage/preferences.html:107
+#: searx/templates/oscar/preferences.html:115
+#: searx/templates/simple/preferences.html:162
+msgid "Open result links on new browser tabs"
+msgstr "在新标签页打开搜索链接"
+
+#: searx/plugins/open_results_on_new_tab.py:19
+msgid ""
+"Results are opened in the same window by default. This plugin overwrites the "
+"default behaviour to open links on new tabs/windows. (JavaScript required)"
+msgstr ""
+"搜索结果默认在原窗口打开。这个插件使其在新标签页/窗口打开。（需要启用"
+"JavaScript ）"
+
+#: searx/plugins/search_on_category_select.py:18
+msgid "Search on category select"
+msgstr "搜索类别选择"
+
+#: searx/plugins/search_on_category_select.py:19
+msgid ""
+"Perform search immediately if a category selected. Disable to select "
+"multiple categories. (JavaScript required)"
+msgstr ""
+"选中一个类别立即搜索。禁用可以选择多个类别搜索。（需要启用JavaScript ）"
+
+#: searx/plugins/self_info.py:20
+msgid ""
+"Displays your IP if the query is \"ip\" and your user agent if the query "
+"contains \"user agent\"."
+msgstr "搜索“ip”显示你的ip以及搜索内容含有“user agent”显示你的user agent。"
+
+#: searx/plugins/tracker_url_remover.py:26
+msgid "Tracker URL remover"
+msgstr "移除跟踪链接"
+
+#: searx/plugins/tracker_url_remover.py:27
+msgid "Remove trackers arguments from the returned URL"
+msgstr "从返回的链接中移除跟踪参数"
+
+#: searx/plugins/vim_hotkeys.py:3
+msgid "Vim-like hotkeys"
+msgstr "类vim快捷键"
+
+#: searx/plugins/vim_hotkeys.py:4
+msgid ""
+"Navigate search results with Vim-like hotkeys (JavaScript required). Press "
+"\"h\" key on main or result page to get help."
+msgstr "使用类vim快捷键浏览搜索结果（JavaScript启用）。按“h”键获取帮助。"
+
+#: searx/templates/courgette/404.html:4 searx/templates/entropage/404.html:4
+#: searx/templates/legacy/404.html:4 searx/templates/oscar/404.html:4
+#: searx/templates/pix-art/404.html:4 searx/templates/simple/404.html:4
+msgid "Page not found"
+msgstr "未找到网页"
+
+#: searx/templates/courgette/404.html:6 searx/templates/entropage/404.html:6
+#: searx/templates/legacy/404.html:6 searx/templates/oscar/404.html:6
+#: searx/templates/pix-art/404.html:6 searx/templates/simple/404.html:6
+#, python-format
+msgid "Go to %(search_page)s."
+msgstr "返回%(search_page)s。"
+
+#: searx/templates/courgette/404.html:6 searx/templates/entropage/404.html:6
+#: searx/templates/legacy/404.html:6 searx/templates/oscar/404.html:6
+#: searx/templates/pix-art/404.html:6 searx/templates/simple/404.html:6
+msgid "search page"
+msgstr "搜索页面"
+
+#: searx/templates/courgette/index.html:9
+#: searx/templates/courgette/index.html:13
+#: searx/templates/courgette/results.html:5
+#: searx/templates/entropage/preferences.html:3
+#: searx/templates/legacy/index.html:8 searx/templates/legacy/index.html:12
+#: searx/templates/oscar/navbar.html:7 searx/templates/oscar/preferences.html:3
+#: searx/templates/pix-art/index.html:8
+msgid "preferences"
+msgstr "首选项"
+
+#: searx/templates/courgette/index.html:11
+#: searx/templates/entropage/policy.html:9
+#: searx/templates/entropage/policy.html:39
+#: searx/templates/legacy/index.html:10 searx/templates/oscar/about.html:2
+#: searx/templates/oscar/navbar.html:6 searx/templates/pix-art/index.html:7
+msgid "about"
+msgstr "关于"
+
+#: searx/templates/courgette/preferences.html:5
+#: searx/templates/entropage/preferences.html:8
+#: searx/templates/legacy/preferences.html:5
+#: searx/templates/oscar/preferences.html:8
+#: searx/templates/pix-art/preferences.html:5
+#: searx/templates/simple/preferences.html:26
+msgid "Preferences"
+msgstr "首选项"
+
+#: searx/templates/courgette/preferences.html:9
+#: searx/templates/entropage/preferences.html:33
+#: searx/templates/entropage/preferences.html:35
+#: searx/templates/legacy/preferences.html:9
+#: searx/templates/oscar/preferences.html:33
+#: searx/templates/oscar/preferences.html:35
+#: searx/templates/simple/preferences.html:34
+msgid "Default categories"
+msgstr "默认类别"
+
+#: searx/templates/courgette/preferences.html:13
+#: searx/templates/entropage/preferences.html:41
+#: searx/templates/legacy/preferences.html:14
+#: searx/templates/oscar/preferences.html:41
+#: searx/templates/pix-art/preferences.html:9
+#: searx/templates/simple/preferences.html:39
+#: searx/templates/simple/preferences.html:208
+msgid "Search language"
+msgstr "搜索语言"
+
+#: searx/templates/courgette/preferences.html:23
+#: searx/templates/entropage/preferences.html:47
+#: searx/templates/legacy/preferences.html:24
+#: searx/templates/oscar/preferences.html:47
+#: searx/templates/pix-art/preferences.html:19
+#: searx/templates/simple/preferences.html:133
+msgid "Interface language"
+msgstr "界面语言"
+
+#: searx/templates/courgette/preferences.html:33
+#: searx/templates/entropage/preferences.html:57
+#: searx/templates/legacy/preferences.html:34
+#: searx/templates/oscar/preferences.html:57
+#: searx/templates/simple/preferences.html:51
+msgid "Autocomplete"
+msgstr "自动补全"
+
+#: searx/templates/courgette/preferences.html:44
+#: searx/templates/entropage/preferences.html:68
+#: searx/templates/legacy/preferences.html:45
+#: searx/templates/oscar/preferences.html:68
+#: searx/templates/simple/preferences.html:211
+msgid "Image proxy"
+msgstr "代理图片"
+
+#: searx/templates/courgette/preferences.html:47
+#: searx/templates/entropage/preferences.html:72
+#: searx/templates/legacy/preferences.html:48
+#: searx/templates/oscar/preferences.html:72
+#: searx/templates/simple/preferences.html:214
+msgid "Enabled"
+msgstr "启用"
+
+#: searx/templates/courgette/preferences.html:48
+#: searx/templates/entropage/preferences.html:73
+#: searx/templates/legacy/preferences.html:49
+#: searx/templates/oscar/preferences.html:73
+#: searx/templates/simple/preferences.html:215
+msgid "Disabled"
+msgstr "禁用"
+
+#: searx/templates/courgette/preferences.html:53
+#: searx/templates/entropage/preferences.html:77
+#: searx/templates/legacy/preferences.html:54
+#: searx/templates/oscar/preferences.html:77
+#: searx/templates/pix-art/preferences.html:29
+#: searx/templates/simple/preferences.html:201
+msgid "Method"
+msgstr "方法"
+
+#: searx/templates/courgette/preferences.html:62
+#: searx/templates/entropage/preferences.html:86
+#: searx/templates/entropage/preferences.html:158
+#: searx/templates/entropage/preferences.html:166
+#: searx/templates/legacy/preferences.html:63
+#: searx/templates/oscar/preferences.html:86
+#: searx/templates/oscar/preferences.html:166
+#: searx/templates/oscar/preferences.html:174
+#: searx/templates/simple/preferences.html:63
+#: searx/templates/simple/preferences.html:103
+msgid "SafeSearch"
+msgstr "安全搜索"
+
+#: searx/templates/courgette/preferences.html:65
+#: searx/templates/entropage/preferences.html:90
+#: searx/templates/legacy/preferences.html:66
+#: searx/templates/oscar/preferences.html:90
+#: searx/templates/simple/preferences.html:66
+msgid "Strict"
+msgstr "严格模式"
+
+#: searx/templates/courgette/preferences.html:66
+#: searx/templates/entropage/preferences.html:91
+#: searx/templates/legacy/preferences.html:67
+#: searx/templates/oscar/preferences.html:91
+#: searx/templates/simple/preferences.html:67
+msgid "Moderate"
+msgstr "中等"
+
+#: searx/templates/courgette/preferences.html:67
+#: searx/templates/entropage/preferences.html:92
+#: searx/templates/legacy/preferences.html:68
+#: searx/templates/oscar/preferences.html:92
+#: searx/templates/simple/preferences.html:68
+msgid "None"
+msgstr "不过滤"
+
+#: searx/templates/courgette/preferences.html:72
+#: searx/templates/entropage/preferences.html:96
+#: searx/templates/legacy/preferences.html:73
+#: searx/templates/oscar/preferences.html:96
+#: searx/templates/pix-art/preferences.html:38
+#: searx/templates/simple/preferences.html:144
+msgid "Themes"
+msgstr "主题"
+
+#: searx/templates/courgette/preferences.html:82
+msgid "Color"
+msgstr "颜色"
+
+#: searx/templates/courgette/preferences.html:85
+msgid "Blue (default)"
+msgstr "蓝色（默认）"
+
+#: searx/templates/courgette/preferences.html:86
+msgid "Violet"
+msgstr "紫色"
+
+#: searx/templates/courgette/preferences.html:87
+msgid "Green"
+msgstr "绿色"
+
+#: searx/templates/courgette/preferences.html:88
+msgid "Cyan"
+msgstr "青色"
+
+#: searx/templates/courgette/preferences.html:89
+msgid "Orange"
+msgstr "橙色"
+
+#: searx/templates/courgette/preferences.html:90
+msgid "Red"
+msgstr "红色"
+
+#: searx/templates/courgette/preferences.html:95
+#: searx/templates/legacy/preferences.html:92
+#: searx/templates/pix-art/preferences.html:48
+#: searx/templates/simple/preferences.html:90
+msgid "Currently used search engines"
+msgstr "目前使用的搜索引擎"
+
+#: searx/templates/courgette/preferences.html:99
+#: searx/templates/entropage/preferences.html:155
+#: searx/templates/entropage/preferences.html:169
+#: searx/templates/legacy/preferences.html:96
+#: searx/templates/oscar/preferences.html:163
+#: searx/templates/oscar/preferences.html:177
+#: searx/templates/pix-art/preferences.html:52
+#: searx/templates/simple/preferences.html:100
+msgid "Engine name"
+msgstr "搜索引擎名称"
+
+#: searx/templates/courgette/preferences.html:100
+#: searx/templates/legacy/preferences.html:97
+msgid "Category"
+msgstr "类别"
+
+#: searx/templates/courgette/preferences.html:101
+#: searx/templates/courgette/preferences.html:112
+#: searx/templates/entropage/preferences.html:154
+#: searx/templates/entropage/preferences.html:170
+#: searx/templates/legacy/preferences.html:98
+#: searx/templates/legacy/preferences.html:109
+#: searx/templates/oscar/preferences.html:162
+#: searx/templates/oscar/preferences.html:178
+#: searx/templates/pix-art/preferences.html:53
+#: searx/templates/pix-art/preferences.html:63
+#: searx/templates/simple/preferences.html:99
+msgid "Allow"
+msgstr "允许"
+
+#: searx/templates/courgette/preferences.html:101
+#: searx/templates/courgette/preferences.html:113
+#: searx/templates/legacy/preferences.html:98
+#: searx/templates/legacy/preferences.html:110
+#: searx/templates/pix-art/preferences.html:53
+#: searx/templates/pix-art/preferences.html:64
+msgid "Block"
+msgstr "阻止"
+
+#: searx/templates/courgette/preferences.html:121
+#: searx/templates/entropage/preferences.html:290
+#: searx/templates/legacy/preferences.html:118
+#: searx/templates/oscar/preferences.html:298
+#: searx/templates/pix-art/preferences.html:72
+#: searx/templates/simple/preferences.html:226
+msgid ""
+"These settings are stored in your cookies, this allows us not to store this "
+"data about you."
+msgstr "这些设置保存在你的cookie，我们将不能保存你的数据。"
+
+#: searx/templates/courgette/preferences.html:123
+#: searx/templates/entropage/preferences.html:292
+#: searx/templates/legacy/preferences.html:120
+#: searx/templates/oscar/preferences.html:300
+#: searx/templates/pix-art/preferences.html:74
+#: searx/templates/simple/preferences.html:228
+msgid ""
+"These cookies serve your sole convenience, we don't use these cookies to "
+"track you."
+msgstr "这些cookie是为了让你更加方便，我们不会使用cookie追踪你。"
+
+#: searx/templates/courgette/preferences.html:126
+#: searx/templates/entropage/preferences.html:298
+#: searx/templates/legacy/preferences.html:123
+#: searx/templates/oscar/preferences.html:306
+#: searx/templates/pix-art/preferences.html:77
+#: searx/templates/simple/preferences.html:231
+msgid "save"
+msgstr "保存"
+
+#: searx/templates/courgette/preferences.html:127
+#: searx/templates/entropage/preferences.html:300
+#: searx/templates/legacy/preferences.html:124
+#: searx/templates/oscar/preferences.html:308
+#: searx/templates/simple/preferences.html:232
+msgid "Reset defaults"
+msgstr "恢复默认"
+
+#: searx/templates/courgette/preferences.html:128
+#: searx/templates/entropage/preferences.html:299
+#: searx/templates/legacy/preferences.html:125
+#: searx/templates/oscar/preferences.html:307
+#: searx/templates/pix-art/preferences.html:78
+#: searx/templates/simple/preferences.html:233
+msgid "back"
+msgstr "返回"
+
+#: searx/templates/courgette/results.html:12
+#: searx/templates/legacy/results.html:13
+#: searx/templates/oscar/results.html:136
+#: searx/templates/simple/results.html:65
+msgid "Search URL"
+msgstr "搜索链接"
+
+#: searx/templates/courgette/results.html:16
+#: searx/templates/legacy/results.html:17
+#: searx/templates/oscar/results.html:141
+#: searx/templates/simple/results.html:69
+msgid "Download results"
+msgstr "下载结果"
+
+#: searx/templates/courgette/results.html:34
+#: searx/templates/legacy/results.html:35
+#: searx/templates/simple/results.html:17
+msgid "Answers"
+msgstr "回答"
+
+#: searx/templates/courgette/results.html:42
+#: searx/templates/entropage/results.html:127
+#: searx/templates/legacy/results.html:43
+#: searx/templates/oscar/results.html:116
+#: searx/templates/simple/results.html:49
+msgid "Suggestions"
+msgstr "搜索建议"
+
+#: searx/templates/courgette/results.html:70
+#: searx/templates/entropage/results.html:76
+#: searx/templates/entropage/results.html:88
+#: searx/templates/legacy/results.html:81 searx/templates/oscar/results.html:68
+#: searx/templates/oscar/results.html:78
+#: searx/templates/simple/results.html:137
+msgid "previous page"
+msgstr "上一页"
+
+#: searx/templates/courgette/results.html:81
+#: searx/templates/entropage/results.html:70
+#: searx/templates/entropage/results.html:96
+#: searx/templates/legacy/results.html:92 searx/templates/oscar/results.html:62
+#: searx/templates/oscar/results.html:84
+#: searx/templates/simple/results.html:152
+msgid "next page"
+msgstr "下一页"
+
+#: searx/templates/courgette/search.html:3
+#: searx/templates/entropage/search.html:17
+#: searx/templates/entropage/search_full.html:10
+#: searx/templates/legacy/search.html:3 searx/templates/oscar/search.html:6
+#: searx/templates/oscar/search_full.html:9
+#: searx/templates/pix-art/search.html:3 searx/templates/simple/search.html:4
+msgid "Search for..."
+msgstr "搜索..."
+
+#: searx/templates/courgette/stats.html:4
+#: searx/templates/entropage/stats.html:5 searx/templates/legacy/stats.html:4
+#: searx/templates/oscar/stats.html:5 searx/templates/pix-art/stats.html:4
+#: searx/templates/simple/stats.html:7
+msgid "Engine stats"
+msgstr "搜索引擎统计"
+
+#: searx/templates/courgette/result_templates/images.html:4
+#: searx/templates/legacy/result_templates/images.html:4
+#: searx/templates/pix-art/result_templates/images.html:4
+msgid "original context"
+msgstr "原始上下文"
+
+#: searx/templates/courgette/result_templates/torrent.html:7
+#: searx/templates/entropage/result_templates/torrent.html:6
+#: searx/templates/legacy/result_templates/torrent.html:11
+#: searx/templates/oscar/result_templates/torrent.html:6
+#: searx/templates/simple/result_templates/torrent.html:9
+msgid "Seeder"
+msgstr "Seeder"
+
+#: searx/templates/courgette/result_templates/torrent.html:7
+#: searx/templates/entropage/result_templates/torrent.html:6
+#: searx/templates/legacy/result_templates/torrent.html:11
+#: searx/templates/oscar/result_templates/torrent.html:6
+#: searx/templates/simple/result_templates/torrent.html:9
+msgid "Leecher"
+msgstr "Leecher"
+
+#: searx/templates/courgette/result_templates/torrent.html:9
+#: searx/templates/entropage/macros.html:23
+#: searx/templates/legacy/result_templates/torrent.html:9
+#: searx/templates/oscar/macros.html:23
+#: searx/templates/simple/result_templates/torrent.html:6
+msgid "magnet link"
+msgstr "磁力链接"
+
+#: searx/templates/courgette/result_templates/torrent.html:10
+#: searx/templates/entropage/macros.html:24
+#: searx/templates/legacy/result_templates/torrent.html:10
+#: searx/templates/oscar/macros.html:24
+#: searx/templates/simple/result_templates/torrent.html:7
+msgid "torrent file"
+msgstr "种子文件"
+
+#: searx/templates/entropage/about.html:2
+#: searx/templates/entropage/about.html:20
+#: searx/templates/entropage/about.html:50
+#: searx/templates/entropage/navbar.html:10
+#: searx/templates/entropage/search.html:37
+#, fuzzy
+msgid "About"
+msgstr "关于"
+
+#: searx/templates/entropage/about.html:23
+#: searx/templates/entropage/about.html:53
+#: searx/templates/entropage/policy.html:12
+#: searx/templates/entropage/policy.html:42
+#: searx/templates/entropage/policy.html:83
+#, fuzzy
+msgid "Qihang Search"
+msgstr "启航搜索"
+
+#: searx/templates/entropage/about.html:26
+#: searx/templates/entropage/about.html:60
+#: searx/templates/entropage/policy.html:15
+#: searx/templates/entropage/policy.html:49
+#, fuzzy
+msgid "Zero Cookie"
+msgstr "没有 Cookie"
+
+#: searx/templates/entropage/about.html:29
+#: searx/templates/entropage/about.html:67
+#: searx/templates/entropage/policy.html:18
+#: searx/templates/entropage/policy.html:57
+#, fuzzy
+msgid "More Privacy"
+msgstr "更多隐私防护"
+
+#: searx/templates/entropage/about.html:32
+#: searx/templates/entropage/about.html:73
+#: searx/templates/entropage/policy.html:21
+#: searx/templates/entropage/policy.html:63
+msgid "Contact us"
+msgstr "联系我们"
+
+#: searx/templates/entropage/about.html:35
+#: searx/templates/entropage/about.html:81
+#: searx/templates/entropage/policy.html:24
+#: searx/templates/entropage/policy.html:71
+msgid "FAQ"
+msgstr "常见问题"
+
+#: searx/templates/entropage/about.html:39
+#: searx/templates/entropage/about.html:91
+#: searx/templates/entropage/navbar.html:12
+#: searx/templates/entropage/search.html:39
+#: searx/templates/entropage/search_full.html:70
+#, fuzzy
+msgid "Privacy Policy"
+msgstr "隐私政策"
+
+#: searx/templates/entropage/about.html:43
+#: searx/templates/entropage/about.html:120
+#, fuzzy
+msgid "Terms Of Service"
+msgstr "使用协议"
+
+#: searx/templates/entropage/about.html:55
+#: searx/templates/entropage/policy.html:44
+msgid ""
+"Qihang search is a meta search engine which puts our users privacy first, "
+"therefore does not track users. LeakZero Search is based on "
+msgstr ""
+"启航搜索是一款守护用户搜索信息的聚合搜索引擎，Ta不会根据搜索关键词追踪用户，"
+"也不会通过历史搜索内容做广告推荐。启航搜索通过聚合中文搜索服务比如Bing、百"
+"度、360、搜狗等搜索结果提供私密搜索服务，底层技术基于开源的元搜索引擎"
+
+#: searx/templates/entropage/about.html:62
+#: searx/templates/entropage/policy.html:51
+msgid ""
+"Cookie is a technique which is usually used to track users' information by "
+"websites, you can visit "
+msgstr "Cookie常常被各大网站用来追踪用户信息你可以访问"
+
+#: searx/templates/entropage/about.html:62
+#, fuzzy
+msgid ""
+"to have a look. As you can see in your browser, there is no cookie in "
+"LeakZero."
+msgstr ""
+"这个网站来查看各大网站的Cookie信息；也可以打开浏览器的开发者模式看看各个网站"
+"的Cookie. 启航搜索没有在你的浏览器上种任何Cookie。"
+
+#: searx/templates/entropage/about.html:69
+#: searx/templates/entropage/policy.html:59
+msgid "We have provided other tools to protect privacy in our "
+msgstr ""
+"为了能够提供更多的网络隐私信息防护方法，我们也开发了其他插"
+"件, 更多详细信息，可以查看我们的"
+
+#: searx/templates/entropage/about.html:69
+#: searx/templates/entropage/policy.html:59
+msgid "home"
+msgstr "后续信息"
+
+#: searx/templates/entropage/about.html:75
+#: searx/templates/entropage/policy.html:65
+msgid "QQ: 15723078568"
+msgstr "启航搜索官方QQ客服: 15723078568@qq.com"
+
+#: searx/templates/entropage/about.html:76
+#: searx/templates/entropage/policy.html:66
+msgid "Email: QHIO-tech@163.com"
+msgstr "邮箱: QHIO-tech@163.com"
+
+#: searx/templates/entropage/about.html:83
+#: searx/templates/entropage/policy.html:73
+msgid "Can I only use baidu to do the search?"
+msgstr "如何在启航搜索中只使用百度搜索结果？"
+
+#: searx/templates/entropage/about.html:84
+#: searx/templates/entropage/policy.html:74
+msgid ""
+"You can use !baidu + keyword to do the search, and also for other engines "
+"you can do the search in the same way"
+msgstr ""
+"可以使用 !baidu + 关键词 来搜索, 其他搜索引擎可以使用!bing + 关键词、!"
+"360sousuo + 关键词、!sogou + 关键词"
+
+#: searx/templates/entropage/about.html:85
+#: searx/templates/entropage/policy.html:75
+msgid "Is there any function for Qihang Search?"
+msgstr "启航搜索是否提供其他功能或者小工具？"
+
+#: searx/templates/entropage/about.html:86
+#: searx/templates/entropage/policy.html:76
+msgid ""
+"We also provide instant answers which originates from Searx, So you can use "
+"random function like random int to generate a random int"
+msgstr ""
+"我们还提供Sear-x官方提供的生成随机数功能，在搜索框中输入random int，可以得到一"
+"个随机数；更多功能，敬请期待。"
+
+#: searx/templates/entropage/about.html:87
+msgid "如何设为主页帮助引导 针对不同的浏览器"
+msgstr ""
+
+#: searx/templates/entropage/about.html:88
+msgid "详情见"
+msgstr ""
+
+#: searx/templates/entropage/about.html:93
+msgid "We solemnly promise"
+msgstr "启航搜索郑重承诺"
+
+#: searx/templates/entropage/about.html:94
+#, fuzzy
+msgid ""
+"Leak Zero will never collect users' personal informaiton, this is the "
+"cornerstone of our privacy policy."
+msgstr "我们不会收集用户的个人信息，这是我们隐私策略的基石原则。"
+
+#: searx/templates/entropage/about.html:99
+#: searx/templates/entropage/policy.html:91
+msgid "Things you should care"
+msgstr "上述原则的详细解释部分："
+
+#: searx/templates/entropage/about.html:101
+#: searx/templates/entropage/policy.html:93
+msgid ""
+"Note: The details may change in the future, please check back frequently for "
+"updates."
+msgstr ""
+"注意：下面的策略条款可能会因国家或地区的法律法规有细节调整，请注意内容更新。"
+
+#: searx/templates/entropage/about.html:104
+#: searx/templates/entropage/policy.html:96
+msgid ""
+"Qihang Search does not track or collect users' search keywords in any user "
+"identifiable way."
+msgstr "启航搜索不会追踪或者收集能够关联到用户身份信息的搜索查询词。"
+
+#: searx/templates/entropage/about.html:105
+#: searx/templates/entropage/policy.html:97
+msgid ""
+"Qihang Search does not reserve any logs which could be connected to "
+"personally identifiable information (PII)."
+msgstr "启航搜索不会保存任何可以关联到用户身份信息的服务日志。"
+
+#: searx/templates/entropage/about.html:106
+#: searx/templates/entropage/policy.html:98
+msgid ""
+"Qihang Search does not have any online account which could be connected to "
+"users."
+msgstr "启航搜索不提供任何和用户身份关联的互联网账号服务。"
+
+#: searx/templates/entropage/about.html:107
+#: searx/templates/entropage/policy.html:99
+msgid "Qihang Search does not have any cookie which could track users."
+msgstr "启航搜索服务不会在用户的浏览器里种cookie信息。"
+
+#: searx/templates/entropage/about.html:108
+#: searx/templates/entropage/policy.html:100
+msgid "Qihang Search protect you from your ISP by using https."
+msgstr ""
+"启航搜索使用https防护整个网络链路上的信息安全，阻止网络中间人截获用户的搜索关"
+"键词。"
+
+#: searx/templates/entropage/about.html:109
+#: searx/templates/entropage/policy.html:101
+msgid ""
+"Qihang Search does not clear your search logs in your browser, you need to "
+"clean it by yourself."
+msgstr "启航搜索并没有清除用户浏览器里的浏览记录，如有需要，请用户自行清除。"
+
+#: searx/templates/entropage/about.html:114
+#: searx/templates/entropage/policy.html:104
+#, fuzzy
+msgid "Other information:"
+msgstr "其他信息:"
+
+#: searx/templates/entropage/about.html:116
+#: searx/templates/entropage/policy.html:106
+msgid ""
+"The framework of Qihang Search is based on Searx, There are many other "
+"public "
+msgstr ""
+"启航搜索的底层开发框架基于searx开源架构, 在互联网上有很多提供Searx的隐"
+"私搜索服务的"
+
+#: searx/templates/entropage/about.html:116
+#: searx/templates/entropage/policy.html:106
+msgid "Searx instances"
+msgstr "引擎实例"
+
+#: searx/templates/entropage/about.html:116
+#: searx/templates/entropage/policy.html:106
+msgid "you could use."
+msgstr "可以使用。"
+
+#: searx/templates/entropage/advanced.html:4
+#: searx/templates/oscar/advanced.html:4
+msgid "Advanced settings"
+msgstr "高级设置"
+
+#: searx/templates/entropage/base.html:58
+#: searx/templates/entropage/messages/first_time.html:4
+#: searx/templates/entropage/messages/save_settings_successfull.html:5
+#: searx/templates/entropage/messages/unknow_error.html:5
+#: searx/templates/oscar/base.html:62
+#: searx/templates/oscar/messages/first_time.html:4
+#: searx/templates/oscar/messages/save_settings_successfull.html:5
+#: searx/templates/oscar/messages/unknow_error.html:5
+msgid "Close"
+msgstr "关闭"
+
+#: searx/templates/entropage/base.html:60
+#: searx/templates/entropage/messages/no_results.html:4
+#: searx/templates/oscar/base.html:64
+#: searx/templates/oscar/messages/no_results.html:4
+#: searx/templates/simple/messages/no_results.html:4
+#: searx/templates/simple/results.html:32
+msgid "Error!"
+msgstr "错误！"
+
+#: searx/templates/entropage/index.html:10
+msgid "logo_index.png"
+msgstr "logo_index_zh_CN.png"
+
+#: searx/templates/entropage/infobox.html:39
+msgid "Read More on Wikipedia"
+msgstr "了解更多"
+
+#: searx/templates/entropage/macros.html:39
+#, fuzzy
+msgid "Anonymous View"
+msgstr "匿名访问"
+
+#: searx/templates/entropage/macros.html:41
+msgid ""
+"Visiting this website with Anonymous View may be a little slower, but it "
+"will enhance your privacy."
+msgstr "以匿名身份访问此网页。增强隐私，可能稍慢。"
+
+#: searx/templates/entropage/macros.html:54
+#: searx/templates/legacy/result_templates/code.html:3
+#: searx/templates/legacy/result_templates/default.html:3
+#: searx/templates/legacy/result_templates/map.html:9
+#: searx/templates/oscar/macros.html:34 searx/templates/oscar/macros.html:48
+#: searx/templates/simple/macros.html:43
+msgid "cached"
+msgstr "缓存"
+
+#: searx/templates/entropage/macros.html:56
+#: searx/templates/oscar/macros.html:36 searx/templates/oscar/macros.html:50
+#: searx/templates/simple/macros.html:43
+msgid "proxied"
+msgstr "代理"
+
+#: searx/templates/entropage/macros.html:98
+#: searx/templates/oscar/macros.html:92
+msgid "supported"
+msgstr "支持的"
+
+#: searx/templates/entropage/macros.html:102
+#: searx/templates/oscar/macros.html:96
+msgid "not supported"
+msgstr "不支持的"
+
+#: searx/templates/entropage/navbar.html:11
+#: searx/templates/entropage/search.html:38
+msgid "App"
+msgstr ""
+
+#: searx/templates/entropage/navbar.html:13
+#: searx/templates/entropage/search.html:40
+#: searx/templates/entropage/search_full.html:71
+msgid "Terms of Service"
+msgstr "使用协议"
+
+#: searx/templates/entropage/navbar.html:14
+#: searx/templates/entropage/search.html:41
+msgid "Blog"
+msgstr "博客"
+
+#: searx/templates/entropage/navbar.html:15
+#: searx/templates/entropage/search.html:42
+#, fuzzy
+msgid "Set As Homepage"
+msgstr "设为主页"
+
+#: searx/templates/entropage/policy.html:2
+#: searx/templates/entropage/policy.html:28
+msgid "policy"
+msgstr "政策"
+
+#: searx/templates/entropage/policy.html:32
+#, fuzzy
+msgid "privacy"
+msgstr "隐私"
+
+#: searx/templates/entropage/policy.html:51
+#, fuzzy
+msgid ""
+"to have a look. As you can see in your browser, there is no\n"
+"                cookie in LeakZero."
+msgstr ""
+"这个网站来查看各大网站的Cookie信息；也可以打开浏览器的开发者模式看看各个网站"
+"的Cookie. 启航搜索没有在你的浏览器上种任何Cookie。"
+
+#: searx/templates/entropage/policy.html:85
+msgid ""
+"LeakZero Search never collects users' personal information, this is the "
+"cornerstone of our privacy policy.  Bellow of this page will further explain "
+"that you need to know exactly."
+msgstr ""
+"启航搜索郑重承诺：我们不会收集用户的个人信息，这是我们隐私策略的基石原则。 本"
+"篇隐私声明下面的文字会进一步解释你需要详细了解的具体信息。"
+
+#: searx/templates/entropage/preferences.html:13
+#: searx/templates/entropage/preferences.html:22
+#: searx/templates/oscar/preferences.html:13
+#: searx/templates/oscar/preferences.html:22
+#: searx/templates/simple/preferences.html:32
+msgid "General"
+msgstr "常规"
+
+#: searx/templates/entropage/preferences.html:14
+#: searx/templates/entropage/preferences.html:139
+#: searx/templates/oscar/preferences.html:14
+#: searx/templates/oscar/preferences.html:147
+#: searx/templates/simple/preferences.html:89
+msgid "Engines"
+msgstr "搜索引擎"
+
+#: searx/templates/entropage/preferences.html:15
+#: searx/templates/entropage/preferences.html:212
+#: searx/templates/oscar/preferences.html:15
+#: searx/templates/oscar/preferences.html:220
+msgid "Plugins"
+msgstr "插件"
+
+#: searx/templates/entropage/preferences.html:16
+#: searx/templates/entropage/preferences.html:238
+#: searx/templates/oscar/preferences.html:16
+#: searx/templates/oscar/preferences.html:246
+msgid "Answerers"
+msgstr "智能答复"
+
+#: searx/templates/entropage/preferences.html:17
+#: searx/templates/entropage/preferences.html:265
+#: searx/templates/oscar/preferences.html:17
+#: searx/templates/oscar/preferences.html:273
+#: searx/templates/simple/preferences.html:167
+msgid "Cookies"
+msgstr "Cookies"
+
+#: searx/templates/entropage/preferences.html:42
+#: searx/templates/oscar/preferences.html:42
+#: searx/templates/simple/preferences.html:48
+msgid "What language do you prefer for search?"
+msgstr "你搜索时更喜欢什么语言？"
+
+#: searx/templates/entropage/preferences.html:48
+#: searx/templates/oscar/preferences.html:48
+#: searx/templates/simple/preferences.html:141
+msgid "Change the language of the layout"
+msgstr "改变界面语言"
+
+#: searx/templates/entropage/preferences.html:58
+#: searx/templates/oscar/preferences.html:58
+#: searx/templates/simple/preferences.html:60
+msgid "Find stuff as you type"
+msgstr "自动补全搜索字词"
+
+#: searx/templates/entropage/preferences.html:69
+#: searx/templates/oscar/preferences.html:69
+#: searx/templates/simple/preferences.html:218
+msgid "Proxying image results through searx"
+msgstr "通过searx代理图片"
+
+#: searx/templates/entropage/preferences.html:78
+#: searx/templates/oscar/preferences.html:78
+msgid ""
+"Change how forms are submited, <a href=\"http://en.wikipedia.org/wiki/"
+"Hypertext_Transfer_Protocol#Request_methods\" rel=\"external\">learn more "
+"about request methods</a>"
+msgstr ""
+"更改请求方法，<a href=\"http://zh.wikipedia.org/wiki/"
+"Hypertext_Transfer_Protocol#Request_methods\" rel=\"external\">深入了解请求方"
+"法</a>"
+
+#: searx/templates/entropage/preferences.html:87
+#: searx/templates/oscar/preferences.html:87
+#: searx/templates/simple/preferences.html:71
+msgid "Filter content"
+msgstr "过滤内容"
+
+#: searx/templates/entropage/preferences.html:97
+#: searx/templates/oscar/preferences.html:97
+#: searx/templates/simple/preferences.html:152
+msgid "Change searx layout"
+msgstr "改变searx布局"
+
+#: searx/templates/entropage/preferences.html:106
+#: searx/templates/legacy/preferences.html:83
+#: searx/templates/oscar/preferences.html:114
+#: searx/templates/simple/preferences.html:155
+msgid "Results on new tabs"
+msgstr "在新标签页打开搜索结果"
+
+#: searx/templates/entropage/preferences.html:110
+#: searx/templates/legacy/preferences.html:86
+#: searx/templates/oscar/preferences.html:118
+#: searx/templates/simple/preferences.html:158
+msgid "On"
+msgstr "启用"
+
+#: searx/templates/entropage/preferences.html:111
+#: searx/templates/legacy/preferences.html:87
+#: searx/templates/oscar/preferences.html:119
+#: searx/templates/simple/preferences.html:159
+msgid "Off"
+msgstr "禁用"
+
+#: searx/templates/entropage/preferences.html:115
+#: searx/templates/oscar/preferences.html:123
+#: searx/templates/simple/preferences.html:75
+msgid "Open Access DOI resolver"
+msgstr ""
+
+#: searx/templates/entropage/preferences.html:116
+#: searx/templates/oscar/preferences.html:124
+#: searx/templates/simple/preferences.html:85
+msgid ""
+"Redirect to open-access versions of publications when available (plugin "
+"required)"
+msgstr ""
+
+#: searx/templates/entropage/preferences.html:156
+#: searx/templates/entropage/preferences.html:168
+#: searx/templates/oscar/preferences.html:164
+#: searx/templates/oscar/preferences.html:176
+#: searx/templates/simple/preferences.html:101
+msgid "Shortcut"
+msgstr "快捷键"
+
+#: searx/templates/entropage/preferences.html:157
+#: searx/templates/entropage/preferences.html:167
+#: searx/templates/oscar/preferences.html:165
+#: searx/templates/oscar/preferences.html:175
+msgid "Selected language"
+msgstr "选择语言"
+
+#: searx/templates/entropage/preferences.html:159
+#: searx/templates/entropage/preferences.html:165
+#: searx/templates/oscar/preferences.html:167
+#: searx/templates/oscar/preferences.html:173
+#: searx/templates/simple/preferences.html:104
+msgid "Time range"
+msgstr "时间范围"
+
+#: searx/templates/entropage/preferences.html:160
+#: searx/templates/entropage/preferences.html:164
+#: searx/templates/oscar/preferences.html:168
+#: searx/templates/oscar/preferences.html:172
+#: searx/templates/simple/preferences.html:105
+msgid "Avg. time"
+msgstr "平均时间"
+
+#: searx/templates/entropage/preferences.html:161
+#: searx/templates/entropage/preferences.html:163
+#: searx/templates/oscar/preferences.html:169
+#: searx/templates/oscar/preferences.html:171
+#: searx/templates/simple/preferences.html:106
+msgid "Max time"
+msgstr "最大时间"
+
+#: searx/templates/entropage/preferences.html:241
+#: searx/templates/oscar/preferences.html:249
+msgid "This is the list of searx's instant answering modules."
+msgstr "这是qh-search的即时回答模块。"
+
+#: searx/templates/entropage/preferences.html:245
+#: searx/templates/oscar/preferences.html:253
+msgid "Name"
+msgstr "名称"
+
+#: searx/templates/entropage/preferences.html:246
+#: searx/templates/oscar/preferences.html:254
+msgid "Keywords"
+msgstr "关键词"
+
+#: searx/templates/entropage/preferences.html:247
+#: searx/templates/oscar/preferences.html:255
+msgid "Description"
+msgstr "描述"
+
+#: searx/templates/entropage/preferences.html:248
+#: searx/templates/oscar/preferences.html:256
+msgid "Examples"
+msgstr "例子"
+
+#: searx/templates/entropage/preferences.html:268
+#: searx/templates/oscar/preferences.html:276
+#: searx/templates/simple/preferences.html:170
+msgid ""
+"This is the list of cookies and their values searx is storing on your "
+"computer."
+msgstr "这里展示了qh-search保存在你的电脑上的cookie。"
+
+#: searx/templates/entropage/preferences.html:269
+#: searx/templates/oscar/preferences.html:277
+#: searx/templates/simple/preferences.html:171
+msgid "With that list, you can assess searx transparency."
+msgstr "有了这个列表，你可以评估searx透明度。"
+
+#: searx/templates/entropage/preferences.html:274
+#: searx/templates/oscar/preferences.html:282
+#: searx/templates/simple/preferences.html:177
+msgid "Cookie name"
+msgstr "cookie名称"
+
+#: searx/templates/entropage/preferences.html:275
+#: searx/templates/oscar/preferences.html:283
+#: searx/templates/simple/preferences.html:178
+msgid "Value"
+msgstr "值"
+
+#: searx/templates/entropage/preferences.html:294
+#: searx/templates/oscar/preferences.html:302
+#: searx/templates/simple/preferences.html:191
+msgid "Search URL of the currently saved preferences"
+msgstr "当前保存选项的搜索链接"
+
+#: searx/templates/entropage/preferences.html:294
+#: searx/templates/oscar/preferences.html:302
+#: searx/templates/simple/preferences.html:195
+msgid ""
+"Note: specifying custom settings in the search URL can reduce privacy by "
+"leaking data to the clicked result sites."
+msgstr "注意：在搜索链接中保存自定义设置会把数据泄露给点击的网站泄漏隐私。"
+
+#: searx/templates/entropage/results.html:17
+#: searx/templates/oscar/results.html:17
+msgid "Search results"
+msgstr "搜索结果"
+
+#: searx/templates/entropage/results.html:21
+#: searx/templates/oscar/results.html:21 searx/templates/simple/results.html:91
+msgid "Try searching for:"
+msgstr "尝试搜索："
+
+#: searx/templates/entropage/results.html:134
+#, fuzzy
+msgid "Search Results Optimization"
+msgstr "搜索优化"
+
+#: searx/templates/entropage/results.html:138
+msgid "We find about"
+msgstr "为您找到相关结果约"
+
+#: searx/templates/entropage/results.html:138
+#, fuzzy
+msgid "results"
+msgstr "个"
+
+#: searx/templates/entropage/results.html:145
+msgid "Anonymous View Tips"
+msgstr "匿名访问贴士"
+
+#: searx/templates/entropage/results.html:148
+msgid ""
+"Because Anonymous View is not compatible with some website, it may result in "
+"script error prompts or page garbled."
+msgstr ""
+"由于匿名访问与部分网站脚本不兼容，可能会导致使用匿名访问浏览部分网站时出现脚"
+"本错误提示，或页面显示乱码。"
+
+#: searx/templates/entropage/search.html:21
+#: searx/templates/entropage/search_full.html:14
+#: searx/templates/oscar/search.html:8
+#: searx/templates/oscar/search_full.html:11
+#: searx/templates/simple/search.html:6
+msgid "Start search"
+msgstr "开始搜索"
+
+#: searx/templates/entropage/search.html:28
+msgid "The search engine doesn't track you."
+msgstr "这是一个回归初心的搜索引擎"
+
+#: searx/templates/entropage/search_full.html:22
+#, fuzzy
+msgid "The search engine"
+msgstr "这是一个"
+
+#: searx/templates/entropage/search_full.html:23
+msgid "doesn't track"
+msgstr "回归初心"
+
+#: searx/templates/entropage/search_full.html:24
+msgid "you."
+msgstr "的搜索引擎"
+
+#: searx/templates/entropage/search_full.html:31
+msgid "What we supply"
+msgstr "您将享有"
+
+#: searx/templates/entropage/search_full.html:37
+#: searx/templates/entropage/search_full.html:41
+#, fuzzy
+msgid "Aggregation"
+msgstr "聚合"
+
+#: searx/templates/entropage/search_full.html:38
+msgid ""
+"We will provide efficient search service with aggregated results from more "
+"search engines and sources."
+msgstr ""
+"我们为您提供一键聚合搜索，我们将为您提供高效的检索结果展示排序，以及更广阔更"
+"丰富的内容来源。"
+
+#: searx/templates/entropage/search_full.html:46
+#: searx/templates/simple/preferences.html:199
+msgid "Privacy"
+msgstr "隐私"
+
+#: searx/templates/entropage/search_full.html:47
+#, fuzzy
+msgid ""
+"We will never collect any personally identifiable information from your "
+"search query, and also we supply <span class=\"b\">Anonymous View </span> "
+"function, which makes it possible to visit websites completely privately."
+msgstr ""
+"我们不记录、不收集您的任何行为和个人信息，同时您可以在检索结果中使用<span "
+"class=\"b\">匿名访问</span>功能，使您访问的站点同样无法获取您的隐私信息。"
+
+#: searx/templates/entropage/search_full.html:50
+#, fuzzy
+msgid " Privacy"
+msgstr "隐私"
+
+#: searx/templates/entropage/search_full.html:55
+#: searx/templates/entropage/search_full.html:59
+msgid "No Ads"
+msgstr "清洁"
+
+#: searx/templates/entropage/search_full.html:56
+#, fuzzy
+msgid ""
+"We have filtered all tracking scripts and parts of advertisements，protect "
+"you from target advertising harassment."
+msgstr ""
+"我们为您过滤检索结果中的广告信息和用途不明的代码，清洁您的检索环境，减少您的"
+"后顾之忧。"
+
+#: searx/templates/entropage/search_full.html:69
+#: searx/templates/oscar/base.html:92 searx/templates/simple/base.html:56
+msgid "Powered by"
+msgstr "技术支持来自"
+
+#: searx/templates/entropage/search_full.html:69
+#: searx/templates/oscar/base.html:92 searx/templates/simple/base.html:56
+msgid "A search engine focusing on returning to the original"
+msgstr "一个着力于回归本真的搜索引擎"
+
+#: searx/templates/entropage/search_full.html:72
+msgid "版权所有 © 2019-2020 QHIO软件"
+msgstr ""
+
+#: searx/templates/entropage/stats.html:2 searx/templates/oscar/stats.html:2
+msgid "stats"
+msgstr "统计"
+
+#: searx/templates/entropage/time-range.html:3
+#: searx/templates/oscar/time-range.html:3
+#: searx/templates/simple/time-range.html:3
+msgid "Anytime"
+msgstr "时间不限"
+
+#: searx/templates/entropage/time-range.html:6
+#: searx/templates/oscar/time-range.html:6
+#: searx/templates/simple/time-range.html:6
+msgid "Last day"
+msgstr "一天内"
+
+#: searx/templates/entropage/time-range.html:9
+#: searx/templates/oscar/time-range.html:9
+#: searx/templates/simple/time-range.html:9
+msgid "Last week"
+msgstr "一周内"
+
+#: searx/templates/entropage/time-range.html:12
+#: searx/templates/oscar/time-range.html:12
+#: searx/templates/simple/time-range.html:12
+msgid "Last month"
+msgstr "一月内"
+
+#: searx/templates/entropage/time-range.html:15
+#: searx/templates/oscar/time-range.html:15
+#: searx/templates/simple/time-range.html:15
+msgid "Last year"
+msgstr "一年内"
+
+#: searx/templates/entropage/messages/first_time.html:6
+#: searx/templates/entropage/messages/no_data_available.html:3
+#: searx/templates/oscar/messages/first_time.html:6
+#: searx/templates/oscar/messages/no_data_available.html:3
+msgid "Heads up!"
+msgstr "小心！"
+
+#: searx/templates/entropage/messages/first_time.html:7
+#: searx/templates/oscar/messages/first_time.html:7
+msgid "It look like you are using qh search first time."
+msgstr "看起来你是第一次使用启航搜索"
+
+#: searx/templates/entropage/messages/no_cookies.html:3
+#: searx/templates/oscar/messages/no_cookies.html:3
+msgid "Information!"
+msgstr "信息！"
+
+#: searx/templates/entropage/messages/no_cookies.html:4
+#: searx/templates/oscar/messages/no_cookies.html:4
+msgid "currently, there are no cookies defined."
+msgstr "目前还未保存cookie。"
+
+#: searx/templates/entropage/messages/no_data_available.html:4
+#: searx/templates/oscar/messages/no_data_available.html:4
+msgid "There is currently no data available. "
+msgstr "目前没有数据可用。"
+
+#: searx/templates/entropage/messages/no_results.html:4
+#: searx/templates/oscar/messages/no_results.html:4
+#: searx/templates/simple/messages/no_results.html:4
+msgid "Engines cannot retrieve results."
+msgstr "以下引擎无法检索。"
+
+#: searx/templates/entropage/messages/no_results.html:10
+#: searx/templates/oscar/messages/no_results.html:10
+#: searx/templates/simple/messages/no_results.html:10
+msgid "Please, try again later or find another qh-search instance."
+msgstr "请稍后再试或使用其他的qh-search实例。"
+
+#: searx/templates/entropage/messages/no_results.html:14
+#: searx/templates/oscar/messages/no_results.html:14
+#: searx/templates/simple/messages/no_results.html:14
+msgid "Sorry!"
+msgstr "抱歉！"
+
+#: searx/templates/entropage/messages/no_results.html:15
+#: searx/templates/oscar/messages/no_results.html:15
+#: searx/templates/simple/messages/no_results.html:15
+msgid ""
+"we didn't find any results. Please use another query or search in more "
+"categories."
+msgstr "我们没有找到任何结果。请换用其他词语或在更多类别中搜索。"
+
+#: searx/templates/entropage/messages/save_settings_successfull.html:7
+#: searx/templates/oscar/messages/save_settings_successfull.html:7
+msgid "Well done!"
+msgstr "做得好！"
+
+#: searx/templates/entropage/messages/save_settings_successfull.html:8
+#: searx/templates/oscar/messages/save_settings_successfull.html:8
+msgid "Settings saved successfully."
+msgstr "设置保存成功。"
+
+#: searx/templates/entropage/messages/unknow_error.html:7
+#: searx/templates/oscar/messages/unknow_error.html:7
+msgid "Oh snap!"
+msgstr "哦，糟糕！"
+
+#: searx/templates/entropage/messages/unknow_error.html:8
+#: searx/templates/oscar/messages/unknow_error.html:8
+msgid "Something went wrong."
+msgstr "出了些问题。"
+
+#: searx/templates/entropage/result_templates/default.html:7
+#: searx/templates/oscar/result_templates/default.html:7
+#: searx/templates/simple/result_templates/default.html:6
+msgid "show media"
+msgstr "显示媒体"
+
+#: searx/templates/entropage/result_templates/default.html:7
+#: searx/templates/oscar/result_templates/default.html:7
+#: searx/templates/simple/result_templates/default.html:6
+msgid "hide media"
+msgstr "隐藏媒体"
+
+#: searx/templates/entropage/result_templates/images.html:35
+#: searx/templates/oscar/result_templates/images.html:30
+msgid "Get image"
+msgstr "获取图片"
+
+#: searx/templates/entropage/result_templates/images.html:38
+#: searx/templates/oscar/result_templates/images.html:33
+msgid "View source"
+msgstr "查看来源"
+
+#: searx/templates/entropage/result_templates/map.html:7
+#: searx/templates/oscar/result_templates/map.html:7
+#: searx/templates/simple/result_templates/map.html:7
+msgid "show map"
+msgstr "显示地图"
+
+#: searx/templates/entropage/result_templates/map.html:7
+#: searx/templates/oscar/result_templates/map.html:7
+#: searx/templates/simple/result_templates/map.html:7
+msgid "hide map"
+msgstr "隐藏地图"
+
+#: searx/templates/entropage/result_templates/map.html:11
+#: searx/templates/oscar/result_templates/map.html:11
+#: searx/templates/simple/result_templates/map.html:11
+msgid "show details"
+msgstr "显示详细信息"
+
+#: searx/templates/entropage/result_templates/map.html:11
+#: searx/templates/oscar/result_templates/map.html:11
+#: searx/templates/simple/result_templates/map.html:11
+msgid "hide details"
+msgstr "隐藏详细信息"
+
+#: searx/templates/entropage/result_templates/torrent.html:7
+#: searx/templates/oscar/result_templates/torrent.html:7
+#: searx/templates/simple/result_templates/torrent.html:11
+msgid "Filesize"
+msgstr "文件大小"
+
+#: searx/templates/entropage/result_templates/torrent.html:9
+#: searx/templates/oscar/result_templates/torrent.html:9
+#: searx/templates/simple/result_templates/torrent.html:12
+msgid "Bytes"
+msgstr "B"
+
+#: searx/templates/entropage/result_templates/torrent.html:10
+#: searx/templates/oscar/result_templates/torrent.html:10
+#: searx/templates/simple/result_templates/torrent.html:13
+msgid "kiB"
+msgstr "KB"
+
+#: searx/templates/entropage/result_templates/torrent.html:11
+#: searx/templates/oscar/result_templates/torrent.html:11
+#: searx/templates/simple/result_templates/torrent.html:14
+msgid "MiB"
+msgstr "MB"
+
+#: searx/templates/entropage/result_templates/torrent.html:12
+#: searx/templates/oscar/result_templates/torrent.html:12
+#: searx/templates/simple/result_templates/torrent.html:15
+msgid "GiB"
+msgstr "GB"
+
+#: searx/templates/entropage/result_templates/torrent.html:13
+#: searx/templates/oscar/result_templates/torrent.html:13
+#: searx/templates/simple/result_templates/torrent.html:16
+msgid "TiB"
+msgstr "TB"
+
+#: searx/templates/entropage/result_templates/torrent.html:15
+#: searx/templates/oscar/result_templates/torrent.html:15
+#: searx/templates/simple/result_templates/torrent.html:20
+msgid "Number of Files"
+msgstr "文件数"
+
+#: searx/templates/entropage/result_templates/videos.html:7
+#: searx/templates/oscar/result_templates/videos.html:7
+#: searx/templates/simple/result_templates/videos.html:6
+msgid "show video"
+msgstr "显示视频"
+
+#: searx/templates/entropage/result_templates/videos.html:7
+#: searx/templates/oscar/result_templates/videos.html:7
+#: searx/templates/simple/result_templates/videos.html:6
+msgid "hide video"
+msgstr "隐藏视频"
+
+#: searx/templates/legacy/categories.html:8
+#: searx/templates/simple/categories.html:6
+msgid "Click on the magnifier to perform search"
+msgstr "点击放大镜开始搜索"
+
+#: searx/templates/oscar/base.html:93 searx/templates/simple/base.html:57
+msgid "Source code"
+msgstr ""
+
+#: searx/templates/oscar/base.html:94 searx/templates/simple/base.html:58
+msgid "Issue tracker"
+msgstr ""
+
+#: searx/templates/oscar/base.html:95 searx/templates/simple/base.html:59
+msgid "Public instances"
+msgstr ""
+
+#: searx/templates/oscar/preferences.html:106
+#: searx/templates/oscar/preferences.html:112
+msgid "Choose style for this theme"
+msgstr "选择这个主题的样式"
+
+#: searx/templates/oscar/preferences.html:106
+#: searx/templates/oscar/preferences.html:112
+msgid "Style"
+msgstr "样式"
+
+#: searx/templates/oscar/results.html:100
+#: searx/templates/simple/results.html:32
+msgid "Engines cannot retrieve results"
+msgstr "引擎无法检索结果"
+
+#: searx/templates/oscar/results.html:131
+msgid "Links"
+msgstr "链接"
+
+#: searx/templates/pix-art/results.html:28
+msgid "Load more..."
+msgstr "载入更多..."
+
+#: searx/templates/simple/base.html:31
+msgid "No item found"
+msgstr "未找到条目"
+
+#: searx/templates/simple/languages.html:2
+#: searx/templates/simple/preferences.html:42
+msgid "Default language"
+msgstr "默认语言"
+
+#: searx/templates/simple/preferences.html:102
+msgid "Supports selected language"
+msgstr "是否支持选定的语言"
+
+#: searx/templates/simple/preferences.html:131
+msgid "User interface"
+msgstr "用户界面"
+
+#: searx/templates/simple/search.html:5
+#, fuzzy
+msgid "Clear search"
+msgstr "开始搜索"
+
+#: searx/templates/simple/result_templates/map.html:47
+#, fuzzy
+msgid "Loading..."
+msgstr "载入更多..."
+
+#~ msgid "了解更多"
+#~ msgstr "Read More On Wikipedia"
+
+#~ msgid "AGGR"
+#~ msgstr "聚合"
+
+#, fuzzy
+#~ msgid "The search engine <span class=b>doesn't track</span> you."
+#~ msgstr "这是一个回归初心，追求极简的搜索引擎。"
+
+#~ msgid "搜索优化"
+#~ msgstr "Search Results Optimizations"
+
+#~ msgid "启航搜索为您找到相关结果约"
+#~ msgstr "About"
+
+#~ msgid "个"
+#~ msgstr "results"
+
+#~ msgid "匿名访问贴士"
+#~ msgstr "Anonymous View Tips"
+
+#~ msgid ""
+#~ "由于匿名访问与部分网站脚本不兼容，可能会导致使用匿名访问浏览部分网站时出现"
+#~ "脚本错误提示，或页面乱码。"
+#~ msgstr ""
+#~ "Because Anonymous View is not compatible with some website, it may result "
+#~ "inscript error prompts or page garbled"
+
+#~ msgid "您将享有"
+#~ msgstr "What we supply"
+
+#~ msgid "聚合"
+#~ msgstr "Aggregation"
+
+#~ msgid ""
+#~ "我们采用独家研发的启航搜索智能聚合技术，为您提供更加高效的信息检索服务，打破传统思维，用聚合带来"
+#~ "更丰富的内容来源。"
+#~ msgstr ""
+#~ "We will provide efficient search service with aggregated results from "
+#~ "moresearch engines and sources"
+
+#~ msgid "隐私"
+#~ msgstr "Privacy"
+
+#~ msgid ""
+#~ "我们不会以任何的途径或方式，搜集您的浏览数据信息，做到真正的纯净"
+#~ msgstr ""
+#~ "We will never collect any personally identifiable information from your "
+#~ "search query, and also we supply <spanclass=\"b\">Anonymous View </span> "
+#~ "function, which makes it possible to visit websites completely privately"
+
+#~ msgid "清洁"
+#~ msgstr "No Ads"
+
+#~ msgid ""
+#~ "我们利用智能AI分析技术，自动检测搜索结果网页中可能带有的恶意木马，为您自动过滤"
+#~ "的后顾之忧。"
+#~ msgstr ""
+#~ "We have filtered all tracking scripts and parts of advertisements，"
+#~ "protect you fromtarget advertising harassment"
+
+#~ msgid "Home"
+#~ msgstr "官网"
+
+#~ msgid ""
+#~ "We do not record, do not track, burn after use. We defend your Internet "
+#~ "privacy."
+#~ msgstr "我们，用行动，为您的互联网安全保驾护航"

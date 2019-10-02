@@ -1,0 +1,160 @@
+@m-title: 30px;
+@s-title: 22px;
+@text: 18px;
+
+@ipad: 768px;
+
+.others {
+  padding: 0 80px;
+
+  @media (max-width: @ipad) {
+    padding: 0 20px;
+  }
+
+  .hr {
+    height: 1px;
+    background: #d8d8d8;
+  }
+
+  .header {
+    overflow: hidden;
+    padding-bottom: 10px;
+
+    .fl {
+      float: left;
+      width: 50px;
+
+      img {
+        width: 100%;
+      }
+    }
+
+    .fr {
+      float: right;
+      margin-top: 14px;
+      a {
+        color: #08c;
+        font-size: 18px;
+      }
+    }
+  }
+
+  // overflow: hidden;
+  .main {
+    display: table;
+    margin-top: 30px;
+  }
+
+  .sidebar {
+    position: sticky;
+    top: 30px;
+    width: 16%;
+    z-index: 1000;
+    float: left;
+
+    @media(max-width: @ipad) {
+      display: none;
+    }
+
+    .title {
+      font-size: 18px;
+      padding-left: 5px;
+      font-weight: bold;
+      margin-bottom: 20px;
+      margin-top: 20px;
+    }
+
+    .tlink {
+      .active {
+        border-left: 4px solid #d8d8d8;
+        padding-left: 10px;
+      }
+    }
+
+    a {
+      color: #000;
+      text-decoration: none;
+
+      &:hover {
+        text-decoration: none;
+      }
+    }
+
+    .link {
+      font-size: 18px;
+      padding-left: 40px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+    }
+
+  }
+
+  .others-container {
+    @media(max-width: @ipad) {
+      float: none;
+      width: 100%;
+    }
+
+    img {
+      max-width: 100%;
+    }
+
+    ul {
+      margin: 0;
+      padding: 0;
+    }
+    li {
+      list-style-type: none;
+      font-size: @text;
+      line-height: 1.8;
+    }
+
+    float: right;
+    width: 78%;
+
+    p {
+      font-size: @text;
+      line-height: 1.8;
+    }
+
+    .title {
+      font-size: @m-title;
+      margin-top: 80px;
+
+      &:target {
+        padding-top: 30px;
+      }
+
+      &:first-of-type {
+        margin-top: 0;
+      }
+    }
+
+    .side-title {
+      margin-top: 40px;
+
+      &:target {
+        padding-top: 30px;
+      }
+
+      h2 {
+        font-size: @s-title;
+        margin-bottom: 20px;
+      }
+
+      h3 {
+        font-size: @s-title;
+        margin-bottom: 20px;
+      }
+    }
+
+    .faq {
+      margin-top: 50px;
+
+      h2 {
+        font-size: @m-title;
+      }
+    }
+
+  }
+}

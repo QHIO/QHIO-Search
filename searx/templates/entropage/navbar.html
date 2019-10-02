@@ -1,0 +1,18 @@
+<div class="searx-navbar">
+    <span class="{% if rtl %}pull-left{% else %}pull-right{% endif %}">
+        <a href="javascript:void(0)" class="entro-nav-btn" id="entro-nav-btn"
+            style="background-image: url({{ url_for('static', filename='img/icon_nav.png') }});background-repeat: no-repeat; background-size: 30px auto;"
+            data-bg="{{ url_for('static', filename='img/icon_nav.png') }}"
+            data-active-bg="{{ url_for('static', filename='img/icon_nav_active.png') }}"
+        ></a>
+
+        <ul class="entro-nav" id="entro-nav" style="display: none;">
+            <li><a href="{{ url_for('about') }}">{{ _('About') }}</a></li>
+            <!-- <li><a href="https://www.leakzero.com#download">{{ _('App') }}</a></li> -->
+            <li><a href="{{ url_for('about') }}#policy">{{ _('Privacy Policy') }}</a></li>
+            <li><a href="{{ url_for('about') }}#agreemt">{{ _('Terms of Service') }}</a></li>
+            <li><a href="https://www.leakzero.com/articles">{{ _('Blog') }}</a></li>
+            <li><a href="https://feed.leakzero.com/post?index=68&type=help">{{ _('Set As Homepage') }}</a></li>
+        </ul>
+    </span>
+</div>

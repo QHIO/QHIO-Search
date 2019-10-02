@@ -1,0 +1,46 @@
+{% from 'entropage/macros.html' import result_link with context %}
+<div class="entro-panel panel panel-default infobox">
+    <div class="panel-body info clearfix">
+        {% if infobox.content %}
+            <div class="clearfix">
+                {% if infobox.img_src %}
+                    <div class="info-pic" style="float: left; margin-right: 10px;">
+                        <img src="{{ image_proxify(infobox.img_src) }}" alt="{{ infobox.infobox }}" />
+                    </div>
+                {% endif %}
+                <div class="infobox_part">
+                    <h4 style="margin-top: 0; display: inline-block;">{{ infobox.infobox }}</h4>
+                    <p>{{ infobox.content[:300] }}...</p>
+                </div>
+            </div>
+        {% endif %}
+
+        <!-- {% if infobox.attributes %} -->
+        <!-- <table class="table table-striped infobox_part">
+            {% for attribute in infobox.attributes %}
+            <tr>
+                <td><bdi>{{ attribute.label }}</bdi></td>
+                {% if attribute.image %}
+                <td><img class="img-responsive" src="{{ image_proxify(attribute.image.src) }}" alt="{{ attribute.image.alt }}" /></td>
+                {% else %}
+                <td><bdi>{{ attribute.value }}</bdi></td>
+                {% endif %}
+            </tr>
+            {% endfor %}
+        </table> -->
+        <!-- {% endif %} -->
+    </div>
+    <div class="panel-heading">
+        <h4 class="panel-title infobox_part">
+            {% if infobox.urls %}
+            <div class="infobox_part">
+                {% for url in infobox.urls %}
+                <a href="{{url.url}}">
+                    <img style="vertical-align: bottom; margin-bottom: 2px;" width="15" src="{{ url_for('static', filename='img/wikipedia_logo.png') }}" /> {{ _('Read More on Wikipedia') }}
+                </a>
+                {% endfor %}
+            </div>
+            {% endif %}
+        </h4>
+    </div>
+</div>

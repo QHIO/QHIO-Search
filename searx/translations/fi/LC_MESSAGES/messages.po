@@ -1,0 +1,1574 @@
+# Translations template for PROJECT.
+# Copyright (C) 2017 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+#
+# Translators:
+# Jiri Grönroos <jiri.gronroos@iki.fi>, 2017
+msgid ""
+msgstr ""
+"Project-Id-Version: searx\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2019-01-04 16:36+0800\n"
+"PO-Revision-Date: 2017-11-13 07:36+0000\n"
+"Last-Translator: Jiri Grönroos <jiri.gronroos@iki.fi>\n"
+"Language-Team: Finnish (http://www.transifex.com/asciimoo/searx/language/"
+"fi/)\n"
+"Language: fi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.3.4\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: searx/search.py:125 searx/search.py:181
+msgid "timeout"
+msgstr "aikakatkaisu"
+
+#: searx/search.py:135
+msgid "request exception"
+msgstr "pyyntöpoikkeus"
+
+#: searx/search.py:144
+msgid "unexpected crash"
+msgstr "odottamaton kaatuminen"
+
+#: searx/webapp.py:145
+msgid "files"
+msgstr "tiedostot"
+
+#: searx/webapp.py:146
+msgid "general"
+msgstr "yleiset"
+
+#: searx/webapp.py:147
+msgid "music"
+msgstr "musiikki"
+
+#: searx/webapp.py:148
+msgid "social media"
+msgstr "sosiaalinen media"
+
+#: searx/webapp.py:149
+msgid "images"
+msgstr "kuvat"
+
+#: searx/webapp.py:150
+msgid "videos"
+msgstr "videot"
+
+#: searx/webapp.py:151
+msgid "it"
+msgstr "it"
+
+#: searx/webapp.py:152
+msgid "news"
+msgstr "uutiset"
+
+#: searx/webapp.py:153
+msgid "map"
+msgstr "kartta"
+
+#: searx/webapp.py:154
+msgid "science"
+msgstr "tiede"
+
+#: searx/webapp.py:482 searx/webapp.py:725
+msgid "Invalid settings, please edit your preferences"
+msgstr "Virheelliset asetukset, muokkaa siis asetuksia"
+
+#: searx/webapp.py:498
+msgid "Invalid settings"
+msgstr "Virheelliset asetukset"
+
+#: searx/webapp.py:532 searx/webapp.py:576
+msgid "search error"
+msgstr "hakuvirhe"
+
+#: searx/webapp.py:617
+msgid "{minutes} minute(s) ago"
+msgstr "{minutes} min sitten"
+
+#: searx/webapp.py:619
+msgid "{hours} hour(s), {minutes} minute(s) ago"
+msgstr "{hours} t, {minutes} min sitten"
+
+#: searx/answerers/random/answerer.py:71
+msgid "Random value generator"
+msgstr "Satunnaisluvun generaattori"
+
+#: searx/answerers/random/answerer.py:72
+msgid "Generate different random values"
+msgstr "Generoi satunnaislukuja"
+
+#: searx/answerers/statistics/answerer.py:53
+msgid "Statistics functions"
+msgstr "Tilastolliset funktiot"
+
+#: searx/answerers/statistics/answerer.py:54
+msgid "Compute {functions} of the arguments"
+msgstr "Laske argumenttien {functions}"
+
+#: searx/engines/__init__.py:214
+msgid "Engine time (sec)"
+msgstr "Hakukoneen aika (s)"
+
+#: searx/engines/__init__.py:218
+msgid "Page loads (sec)"
+msgstr "Sivun lataus (s)"
+
+#: searx/engines/__init__.py:222 searx/templates/oscar/results.html:95
+#: searx/templates/simple/results.html:27
+msgid "Number of results"
+msgstr "Tulosten määrä"
+
+#: searx/engines/__init__.py:226
+msgid "Scores"
+msgstr "Pisteet"
+
+#: searx/engines/__init__.py:230
+msgid "Scores per result"
+msgstr "Pisteet per tulos"
+
+#: searx/engines/__init__.py:234
+msgid "Errors"
+msgstr "Virheet"
+
+#: searx/engines/google.py:213
+msgid "CAPTCHA required"
+msgstr ""
+
+#: searx/engines/pdbe.py:87
+#, fuzzy
+msgid "{title} (OBSOLETE)"
+msgstr "{title}&nbsp;(VANHENTUNUT)"
+
+#: searx/engines/pdbe.py:94
+msgid "This entry has been superseded by"
+msgstr "Tämän kohdan on korvannut"
+
+#: searx/engines/pubmed.py:74
+msgid "No abstract is available for this publication."
+msgstr "Tästä julkaisusta ei ole yhteenvetoa."
+
+#: searx/plugins/https_rewrite.py:32
+msgid "Rewrite HTTP links to HTTPS if possible"
+msgstr "Muuta HTTP-linkit HTTPS-muotoon jos mahdollista"
+
+#: searx/plugins/infinite_scroll.py:3
+msgid "Infinite scroll"
+msgstr "Loputon vieritys"
+
+#: searx/plugins/infinite_scroll.py:4
+msgid "Automatically load next page when scrolling to bottom of current page"
+msgstr ""
+"Lataa automaattisesti seuraava sivu, kun nykyisen sivun loppu saavutetaan"
+
+#: searx/plugins/oa_doi_rewrite.py:9
+msgid "Open Access DOI rewrite"
+msgstr "Open Access DOI -uudelleenkirjoitus"
+
+#: searx/plugins/oa_doi_rewrite.py:10
+msgid ""
+"Avoid paywalls by redirecting to open-access versions of publications when "
+"available"
+msgstr ""
+"Vältä maksumuureja ohjaamalla julkaisujen avoimiin versioihin jos mahdollista"
+
+#: searx/plugins/open_results_on_new_tab.py:18
+#: searx/templates/entropage/preferences.html:107
+#: searx/templates/oscar/preferences.html:115
+#: searx/templates/simple/preferences.html:162
+msgid "Open result links on new browser tabs"
+msgstr "Avaa tulokset uusiin välilehtiin"
+
+#: searx/plugins/open_results_on_new_tab.py:19
+msgid ""
+"Results are opened in the same window by default. This plugin overwrites the "
+"default behaviour to open links on new tabs/windows. (JavaScript required)"
+msgstr ""
+"Tulokset avataan oletuksena samaan ikkunaan. Tämä lisäosa korvaa "
+"oletustoiminnan avaamalla linkit uusiin välilehtiin tai ikkunoihin. "
+"(JavaScript vaaditaan)"
+
+#: searx/plugins/search_on_category_select.py:18
+msgid "Search on category select"
+msgstr "Etsi valitsemalla luokka"
+
+#: searx/plugins/search_on_category_select.py:19
+msgid ""
+"Perform search immediately if a category selected. Disable to select "
+"multiple categories. (JavaScript required)"
+msgstr ""
+"Suorita haku välittömästi, jos luokka valitaan. Poista käytöstä valitaksesi "
+"useita luokkia. (JavaScript vaaditaan)"
+
+#: searx/plugins/self_info.py:20
+msgid ""
+"Displays your IP if the query is \"ip\" and your user agent if the query "
+"contains \"user agent\"."
+msgstr ""
+"Näyttää IP-osoitteesi jos hakuehtosi on \"ip\" ja selaimen tunnistetiedot "
+"jos hakuehtosi sisältää sanat \"user agent\"."
+
+#: searx/plugins/tracker_url_remover.py:26
+msgid "Tracker URL remover"
+msgstr "Seurantapalvelimen osoitteen poistaja"
+
+#: searx/plugins/tracker_url_remover.py:27
+msgid "Remove trackers arguments from the returned URL"
+msgstr "Poista seurantapalvelinten argumentit palautetusta osoitteesta"
+
+#: searx/plugins/vim_hotkeys.py:3
+msgid "Vim-like hotkeys"
+msgstr "Vim-kaltaiset pikanäppäimet"
+
+#: searx/plugins/vim_hotkeys.py:4
+msgid ""
+"Navigate search results with Vim-like hotkeys (JavaScript required). Press "
+"\"h\" key on main or result page to get help."
+msgstr ""
+"Liiku hakutulossivuilla Vim-kaltaisin näppäinkomennoin (JavaScript "
+"vaaditaan). Paina \"h\" pää- tai hakutulossivulla nähdäksesi ohjeet."
+
+#: searx/templates/courgette/404.html:4 searx/templates/entropage/404.html:4
+#: searx/templates/legacy/404.html:4 searx/templates/oscar/404.html:4
+#: searx/templates/pix-art/404.html:4 searx/templates/simple/404.html:4
+msgid "Page not found"
+msgstr "Sivua ei löytynyt"
+
+#: searx/templates/courgette/404.html:6 searx/templates/entropage/404.html:6
+#: searx/templates/legacy/404.html:6 searx/templates/oscar/404.html:6
+#: searx/templates/pix-art/404.html:6 searx/templates/simple/404.html:6
+#, python-format
+msgid "Go to %(search_page)s."
+msgstr "Siirry %(search_page)s."
+
+#: searx/templates/courgette/404.html:6 searx/templates/entropage/404.html:6
+#: searx/templates/legacy/404.html:6 searx/templates/oscar/404.html:6
+#: searx/templates/pix-art/404.html:6 searx/templates/simple/404.html:6
+msgid "search page"
+msgstr "hakusivulle"
+
+#: searx/templates/courgette/index.html:9
+#: searx/templates/courgette/index.html:13
+#: searx/templates/courgette/results.html:5
+#: searx/templates/entropage/preferences.html:3
+#: searx/templates/legacy/index.html:8 searx/templates/legacy/index.html:12
+#: searx/templates/oscar/navbar.html:7 searx/templates/oscar/preferences.html:3
+#: searx/templates/pix-art/index.html:8
+msgid "preferences"
+msgstr "asetukset"
+
+#: searx/templates/courgette/index.html:11
+#: searx/templates/entropage/policy.html:9
+#: searx/templates/entropage/policy.html:39
+#: searx/templates/legacy/index.html:10 searx/templates/oscar/about.html:2
+#: searx/templates/oscar/navbar.html:6 searx/templates/pix-art/index.html:7
+msgid "about"
+msgstr "tietoja"
+
+#: searx/templates/courgette/preferences.html:5
+#: searx/templates/entropage/preferences.html:8
+#: searx/templates/legacy/preferences.html:5
+#: searx/templates/oscar/preferences.html:8
+#: searx/templates/pix-art/preferences.html:5
+#: searx/templates/simple/preferences.html:26
+msgid "Preferences"
+msgstr "Asetukset"
+
+#: searx/templates/courgette/preferences.html:9
+#: searx/templates/entropage/preferences.html:33
+#: searx/templates/entropage/preferences.html:35
+#: searx/templates/legacy/preferences.html:9
+#: searx/templates/oscar/preferences.html:33
+#: searx/templates/oscar/preferences.html:35
+#: searx/templates/simple/preferences.html:34
+msgid "Default categories"
+msgstr "Oletusluokat"
+
+#: searx/templates/courgette/preferences.html:13
+#: searx/templates/entropage/preferences.html:41
+#: searx/templates/legacy/preferences.html:14
+#: searx/templates/oscar/preferences.html:41
+#: searx/templates/pix-art/preferences.html:9
+#: searx/templates/simple/preferences.html:39
+#: searx/templates/simple/preferences.html:208
+msgid "Search language"
+msgstr "Haun kieli"
+
+#: searx/templates/courgette/preferences.html:23
+#: searx/templates/entropage/preferences.html:47
+#: searx/templates/legacy/preferences.html:24
+#: searx/templates/oscar/preferences.html:47
+#: searx/templates/pix-art/preferences.html:19
+#: searx/templates/simple/preferences.html:133
+msgid "Interface language"
+msgstr "Käyttöliittymän kieli"
+
+#: searx/templates/courgette/preferences.html:33
+#: searx/templates/entropage/preferences.html:57
+#: searx/templates/legacy/preferences.html:34
+#: searx/templates/oscar/preferences.html:57
+#: searx/templates/simple/preferences.html:51
+msgid "Autocomplete"
+msgstr "Automaattinen täydentäminen"
+
+#: searx/templates/courgette/preferences.html:44
+#: searx/templates/entropage/preferences.html:68
+#: searx/templates/legacy/preferences.html:45
+#: searx/templates/oscar/preferences.html:68
+#: searx/templates/simple/preferences.html:211
+msgid "Image proxy"
+msgstr "Kuvat välityspalvelimen kautta"
+
+#: searx/templates/courgette/preferences.html:47
+#: searx/templates/entropage/preferences.html:72
+#: searx/templates/legacy/preferences.html:48
+#: searx/templates/oscar/preferences.html:72
+#: searx/templates/simple/preferences.html:214
+msgid "Enabled"
+msgstr "Käytössä"
+
+#: searx/templates/courgette/preferences.html:48
+#: searx/templates/entropage/preferences.html:73
+#: searx/templates/legacy/preferences.html:49
+#: searx/templates/oscar/preferences.html:73
+#: searx/templates/simple/preferences.html:215
+msgid "Disabled"
+msgstr "Ei käytössä"
+
+#: searx/templates/courgette/preferences.html:53
+#: searx/templates/entropage/preferences.html:77
+#: searx/templates/legacy/preferences.html:54
+#: searx/templates/oscar/preferences.html:77
+#: searx/templates/pix-art/preferences.html:29
+#: searx/templates/simple/preferences.html:201
+msgid "Method"
+msgstr "Tapa"
+
+#: searx/templates/courgette/preferences.html:62
+#: searx/templates/entropage/preferences.html:86
+#: searx/templates/entropage/preferences.html:158
+#: searx/templates/entropage/preferences.html:166
+#: searx/templates/legacy/preferences.html:63
+#: searx/templates/oscar/preferences.html:86
+#: searx/templates/oscar/preferences.html:166
+#: searx/templates/oscar/preferences.html:174
+#: searx/templates/simple/preferences.html:63
+#: searx/templates/simple/preferences.html:103
+msgid "SafeSearch"
+msgstr "SafeSearch"
+
+#: searx/templates/courgette/preferences.html:65
+#: searx/templates/entropage/preferences.html:90
+#: searx/templates/legacy/preferences.html:66
+#: searx/templates/oscar/preferences.html:90
+#: searx/templates/simple/preferences.html:66
+msgid "Strict"
+msgstr "Tiukka"
+
+#: searx/templates/courgette/preferences.html:66
+#: searx/templates/entropage/preferences.html:91
+#: searx/templates/legacy/preferences.html:67
+#: searx/templates/oscar/preferences.html:91
+#: searx/templates/simple/preferences.html:67
+msgid "Moderate"
+msgstr "Keskitaso"
+
+#: searx/templates/courgette/preferences.html:67
+#: searx/templates/entropage/preferences.html:92
+#: searx/templates/legacy/preferences.html:68
+#: searx/templates/oscar/preferences.html:92
+#: searx/templates/simple/preferences.html:68
+msgid "None"
+msgstr "Ei mitään"
+
+#: searx/templates/courgette/preferences.html:72
+#: searx/templates/entropage/preferences.html:96
+#: searx/templates/legacy/preferences.html:73
+#: searx/templates/oscar/preferences.html:96
+#: searx/templates/pix-art/preferences.html:38
+#: searx/templates/simple/preferences.html:144
+msgid "Themes"
+msgstr "Teemat"
+
+#: searx/templates/courgette/preferences.html:82
+msgid "Color"
+msgstr "Väri"
+
+#: searx/templates/courgette/preferences.html:85
+msgid "Blue (default)"
+msgstr "Sininen (oletus)"
+
+#: searx/templates/courgette/preferences.html:86
+msgid "Violet"
+msgstr "Violetti"
+
+#: searx/templates/courgette/preferences.html:87
+msgid "Green"
+msgstr "Vihreä"
+
+#: searx/templates/courgette/preferences.html:88
+msgid "Cyan"
+msgstr "Syaani"
+
+#: searx/templates/courgette/preferences.html:89
+msgid "Orange"
+msgstr "Oranssi"
+
+#: searx/templates/courgette/preferences.html:90
+msgid "Red"
+msgstr "Punainen"
+
+#: searx/templates/courgette/preferences.html:95
+#: searx/templates/legacy/preferences.html:92
+#: searx/templates/pix-art/preferences.html:48
+#: searx/templates/simple/preferences.html:90
+msgid "Currently used search engines"
+msgstr "Nyt käytetyt hakukoneet"
+
+#: searx/templates/courgette/preferences.html:99
+#: searx/templates/entropage/preferences.html:155
+#: searx/templates/entropage/preferences.html:169
+#: searx/templates/legacy/preferences.html:96
+#: searx/templates/oscar/preferences.html:163
+#: searx/templates/oscar/preferences.html:177
+#: searx/templates/pix-art/preferences.html:52
+#: searx/templates/simple/preferences.html:100
+msgid "Engine name"
+msgstr "Hakukoneen nimi"
+
+#: searx/templates/courgette/preferences.html:100
+#: searx/templates/legacy/preferences.html:97
+msgid "Category"
+msgstr "Luokka"
+
+#: searx/templates/courgette/preferences.html:101
+#: searx/templates/courgette/preferences.html:112
+#: searx/templates/entropage/preferences.html:154
+#: searx/templates/entropage/preferences.html:170
+#: searx/templates/legacy/preferences.html:98
+#: searx/templates/legacy/preferences.html:109
+#: searx/templates/oscar/preferences.html:162
+#: searx/templates/oscar/preferences.html:178
+#: searx/templates/pix-art/preferences.html:53
+#: searx/templates/pix-art/preferences.html:63
+#: searx/templates/simple/preferences.html:99
+msgid "Allow"
+msgstr "Salli"
+
+#: searx/templates/courgette/preferences.html:101
+#: searx/templates/courgette/preferences.html:113
+#: searx/templates/legacy/preferences.html:98
+#: searx/templates/legacy/preferences.html:110
+#: searx/templates/pix-art/preferences.html:53
+#: searx/templates/pix-art/preferences.html:64
+msgid "Block"
+msgstr "Estä"
+
+#: searx/templates/courgette/preferences.html:121
+#: searx/templates/entropage/preferences.html:290
+#: searx/templates/legacy/preferences.html:118
+#: searx/templates/oscar/preferences.html:298
+#: searx/templates/pix-art/preferences.html:72
+#: searx/templates/simple/preferences.html:226
+msgid ""
+"These settings are stored in your cookies, this allows us not to store this "
+"data about you."
+msgstr ""
+"Nämä asetukset tallennetaan evästeisiisi. Näin Searxin ei tarvitse tallentaa "
+"sinuun liittyviä henkilökohtaisia tietoja."
+
+#: searx/templates/courgette/preferences.html:123
+#: searx/templates/entropage/preferences.html:292
+#: searx/templates/legacy/preferences.html:120
+#: searx/templates/oscar/preferences.html:300
+#: searx/templates/pix-art/preferences.html:74
+#: searx/templates/simple/preferences.html:228
+msgid ""
+"These cookies serve your sole convenience, we don't use these cookies to "
+"track you."
+msgstr ""
+"Kyseiset evästeet palvelevat ainoastaan sinua, eikä niitä käytetä "
+"seuraamiseesi."
+
+#: searx/templates/courgette/preferences.html:126
+#: searx/templates/entropage/preferences.html:298
+#: searx/templates/legacy/preferences.html:123
+#: searx/templates/oscar/preferences.html:306
+#: searx/templates/pix-art/preferences.html:77
+#: searx/templates/simple/preferences.html:231
+msgid "save"
+msgstr "Tallenna"
+
+#: searx/templates/courgette/preferences.html:127
+#: searx/templates/entropage/preferences.html:300
+#: searx/templates/legacy/preferences.html:124
+#: searx/templates/oscar/preferences.html:308
+#: searx/templates/simple/preferences.html:232
+msgid "Reset defaults"
+msgstr "Palauta oletukset"
+
+#: searx/templates/courgette/preferences.html:128
+#: searx/templates/entropage/preferences.html:299
+#: searx/templates/legacy/preferences.html:125
+#: searx/templates/oscar/preferences.html:307
+#: searx/templates/pix-art/preferences.html:78
+#: searx/templates/simple/preferences.html:233
+msgid "back"
+msgstr "Takaisin"
+
+#: searx/templates/courgette/results.html:12
+#: searx/templates/legacy/results.html:13
+#: searx/templates/oscar/results.html:136
+#: searx/templates/simple/results.html:65
+msgid "Search URL"
+msgstr "Haun osoite"
+
+#: searx/templates/courgette/results.html:16
+#: searx/templates/legacy/results.html:17
+#: searx/templates/oscar/results.html:141
+#: searx/templates/simple/results.html:69
+msgid "Download results"
+msgstr "Lataa tulokset"
+
+#: searx/templates/courgette/results.html:34
+#: searx/templates/legacy/results.html:35
+#: searx/templates/simple/results.html:17
+msgid "Answers"
+msgstr "Vastaukset"
+
+#: searx/templates/courgette/results.html:42
+#: searx/templates/entropage/results.html:127
+#: searx/templates/legacy/results.html:43
+#: searx/templates/oscar/results.html:116
+#: searx/templates/simple/results.html:49
+msgid "Suggestions"
+msgstr "Ehdotukset"
+
+#: searx/templates/courgette/results.html:70
+#: searx/templates/entropage/results.html:76
+#: searx/templates/entropage/results.html:88
+#: searx/templates/legacy/results.html:81 searx/templates/oscar/results.html:68
+#: searx/templates/oscar/results.html:78
+#: searx/templates/simple/results.html:137
+msgid "previous page"
+msgstr "edellinen sivu"
+
+#: searx/templates/courgette/results.html:81
+#: searx/templates/entropage/results.html:70
+#: searx/templates/entropage/results.html:96
+#: searx/templates/legacy/results.html:92 searx/templates/oscar/results.html:62
+#: searx/templates/oscar/results.html:84
+#: searx/templates/simple/results.html:152
+msgid "next page"
+msgstr "seuraava sivu"
+
+#: searx/templates/courgette/search.html:3
+#: searx/templates/entropage/search.html:17
+#: searx/templates/entropage/search_full.html:10
+#: searx/templates/legacy/search.html:3 searx/templates/oscar/search.html:6
+#: searx/templates/oscar/search_full.html:9
+#: searx/templates/pix-art/search.html:3 searx/templates/simple/search.html:4
+msgid "Search for..."
+msgstr "Etsi..."
+
+#: searx/templates/courgette/stats.html:4
+#: searx/templates/entropage/stats.html:5 searx/templates/legacy/stats.html:4
+#: searx/templates/oscar/stats.html:5 searx/templates/pix-art/stats.html:4
+#: searx/templates/simple/stats.html:7
+msgid "Engine stats"
+msgstr "Hakukoneen tilastot"
+
+#: searx/templates/courgette/result_templates/images.html:4
+#: searx/templates/legacy/result_templates/images.html:4
+#: searx/templates/pix-art/result_templates/images.html:4
+msgid "original context"
+msgstr "alkuperäinen konteksti"
+
+#: searx/templates/courgette/result_templates/torrent.html:7
+#: searx/templates/entropage/result_templates/torrent.html:6
+#: searx/templates/legacy/result_templates/torrent.html:11
+#: searx/templates/oscar/result_templates/torrent.html:6
+#: searx/templates/simple/result_templates/torrent.html:9
+msgid "Seeder"
+msgstr "Lähettäjä"
+
+#: searx/templates/courgette/result_templates/torrent.html:7
+#: searx/templates/entropage/result_templates/torrent.html:6
+#: searx/templates/legacy/result_templates/torrent.html:11
+#: searx/templates/oscar/result_templates/torrent.html:6
+#: searx/templates/simple/result_templates/torrent.html:9
+msgid "Leecher"
+msgstr "Lataaja"
+
+#: searx/templates/courgette/result_templates/torrent.html:9
+#: searx/templates/entropage/macros.html:23
+#: searx/templates/legacy/result_templates/torrent.html:9
+#: searx/templates/oscar/macros.html:23
+#: searx/templates/simple/result_templates/torrent.html:6
+msgid "magnet link"
+msgstr "magnet-linkki"
+
+#: searx/templates/courgette/result_templates/torrent.html:10
+#: searx/templates/entropage/macros.html:24
+#: searx/templates/legacy/result_templates/torrent.html:10
+#: searx/templates/oscar/macros.html:24
+#: searx/templates/simple/result_templates/torrent.html:7
+msgid "torrent file"
+msgstr "torrent-tiedosto"
+
+#: searx/templates/entropage/about.html:2
+#: searx/templates/entropage/about.html:20
+#: searx/templates/entropage/about.html:50
+#: searx/templates/entropage/navbar.html:10
+#: searx/templates/entropage/search.html:37
+#, fuzzy
+msgid "About"
+msgstr "tietoja"
+
+#: searx/templates/entropage/about.html:23
+#: searx/templates/entropage/about.html:53
+#: searx/templates/entropage/policy.html:12
+#: searx/templates/entropage/policy.html:42
+#: searx/templates/entropage/policy.html:83
+#, fuzzy
+msgid "LeakZero Search"
+msgstr "Aloita haku"
+
+#: searx/templates/entropage/about.html:26
+#: searx/templates/entropage/about.html:60
+#: searx/templates/entropage/policy.html:15
+#: searx/templates/entropage/policy.html:49
+#, fuzzy
+msgid "Zero Cookie"
+msgstr "Evästeet"
+
+#: searx/templates/entropage/about.html:29
+#: searx/templates/entropage/about.html:67
+#: searx/templates/entropage/policy.html:18
+#: searx/templates/entropage/policy.html:57
+#, fuzzy
+msgid "More Privacy"
+msgstr "Yksityisyys"
+
+#: searx/templates/entropage/about.html:32
+#: searx/templates/entropage/about.html:73
+#: searx/templates/entropage/policy.html:21
+#: searx/templates/entropage/policy.html:63
+msgid "Contact us"
+msgstr ""
+
+#: searx/templates/entropage/about.html:35
+#: searx/templates/entropage/about.html:81
+#: searx/templates/entropage/policy.html:24
+#: searx/templates/entropage/policy.html:71
+msgid "FAQ"
+msgstr ""
+
+#: searx/templates/entropage/about.html:39
+#: searx/templates/entropage/about.html:91
+#: searx/templates/entropage/navbar.html:12
+#: searx/templates/entropage/search.html:39
+#: searx/templates/entropage/search_full.html:70
+#, fuzzy
+msgid "Privacy Policy"
+msgstr "Yksityisyys"
+
+#: searx/templates/entropage/about.html:43
+#: searx/templates/entropage/about.html:120
+msgid "Terms Of Service"
+msgstr ""
+
+#: searx/templates/entropage/about.html:55
+#: searx/templates/entropage/policy.html:44
+msgid ""
+"LeakZero search is a meta search engine which puts our users privacy first, "
+"therefore does not track users. LeakZero Search is based on "
+msgstr ""
+
+#: searx/templates/entropage/about.html:62
+#: searx/templates/entropage/policy.html:51
+msgid ""
+"Cookie is a technique which is usually used to track users' information by "
+"websites, you can visit "
+msgstr ""
+
+#: searx/templates/entropage/about.html:62
+msgid ""
+"to have a look. As you can see in your browser, there is no cookie in "
+"LeakZero."
+msgstr ""
+
+#: searx/templates/entropage/about.html:69
+#: searx/templates/entropage/policy.html:59
+msgid "We have provided other tools to protect privacy in our "
+msgstr ""
+
+#: searx/templates/entropage/about.html:69
+#: searx/templates/entropage/policy.html:59
+msgid "home"
+msgstr ""
+
+#: searx/templates/entropage/about.html:75
+#: searx/templates/entropage/policy.html:65
+msgid "Wechat: mijixiaoer"
+msgstr ""
+
+#: searx/templates/entropage/about.html:76
+#: searx/templates/entropage/policy.html:66
+msgid "Email: contact@entropage.com"
+msgstr ""
+
+#: searx/templates/entropage/about.html:83
+#: searx/templates/entropage/policy.html:73
+msgid "Can I only use baidu to do the search?"
+msgstr ""
+
+#: searx/templates/entropage/about.html:84
+#: searx/templates/entropage/policy.html:74
+msgid ""
+"You can use !baidu + keyword to do the search, and also for other engines "
+"you can do the search in the same way"
+msgstr ""
+
+#: searx/templates/entropage/about.html:85
+#: searx/templates/entropage/policy.html:75
+msgid "Is there any function for LeakZero Search?"
+msgstr ""
+
+#: searx/templates/entropage/about.html:86
+#: searx/templates/entropage/policy.html:76
+msgid ""
+"We also provide instant answers which originates from Searx, So you can use "
+"random function like random int to generate a random int"
+msgstr ""
+
+#: searx/templates/entropage/about.html:87
+msgid "如何设为主页帮助引导 针对不同的浏览器"
+msgstr ""
+
+#: searx/templates/entropage/about.html:88
+msgid "详情见"
+msgstr ""
+
+#: searx/templates/entropage/about.html:93
+msgid "We solemnly promise"
+msgstr ""
+
+#: searx/templates/entropage/about.html:94
+msgid ""
+"Leak Zero will never collect users' personal informaiton, this is the "
+"cornerstone of our privacy policy."
+msgstr ""
+
+#: searx/templates/entropage/about.html:99
+#: searx/templates/entropage/policy.html:91
+msgid "Things you should care"
+msgstr ""
+
+#: searx/templates/entropage/about.html:101
+#: searx/templates/entropage/policy.html:93
+msgid ""
+"Note: The details may change in the future, please check back frequently for "
+"updates."
+msgstr ""
+
+#: searx/templates/entropage/about.html:104
+#: searx/templates/entropage/policy.html:96
+msgid ""
+"LeakZero Search does not track or collect users' search keywords in any user "
+"identifiable way."
+msgstr ""
+
+#: searx/templates/entropage/about.html:105
+#: searx/templates/entropage/policy.html:97
+msgid ""
+"LeakZero Search does not reserve any logs which could be connected to "
+"personally identifiable information (PII)."
+msgstr ""
+
+#: searx/templates/entropage/about.html:106
+#: searx/templates/entropage/policy.html:98
+msgid ""
+"LeakZero Search does not have any online account which could be connected to "
+"users."
+msgstr ""
+
+#: searx/templates/entropage/about.html:107
+#: searx/templates/entropage/policy.html:99
+msgid "LeakZero Search does not have any cookie which could track users."
+msgstr ""
+
+#: searx/templates/entropage/about.html:108
+#: searx/templates/entropage/policy.html:100
+msgid "LeakZero Search protect you from your ISP by using https."
+msgstr ""
+
+#: searx/templates/entropage/about.html:109
+#: searx/templates/entropage/policy.html:101
+msgid ""
+"LeakZero Search does not clear your search logs in your browser, you need to "
+"clean it by yourself."
+msgstr ""
+
+#: searx/templates/entropage/about.html:114
+#: searx/templates/entropage/policy.html:104
+#, fuzzy
+msgid "Other information:"
+msgstr "Huomio!"
+
+#: searx/templates/entropage/about.html:116
+#: searx/templates/entropage/policy.html:106
+msgid ""
+"The framework of LeakZero Search is based on Searx, There are many other "
+"public "
+msgstr ""
+
+#: searx/templates/entropage/about.html:116
+#: searx/templates/entropage/policy.html:106
+msgid "Searx instances"
+msgstr ""
+
+#: searx/templates/entropage/about.html:116
+#: searx/templates/entropage/policy.html:106
+msgid "you could use."
+msgstr ""
+
+#: searx/templates/entropage/advanced.html:4
+#: searx/templates/oscar/advanced.html:4
+msgid "Advanced settings"
+msgstr "Lisäasetukset"
+
+#: searx/templates/entropage/base.html:58
+#: searx/templates/entropage/messages/first_time.html:4
+#: searx/templates/entropage/messages/save_settings_successfull.html:5
+#: searx/templates/entropage/messages/unknow_error.html:5
+#: searx/templates/oscar/base.html:62
+#: searx/templates/oscar/messages/first_time.html:4
+#: searx/templates/oscar/messages/save_settings_successfull.html:5
+#: searx/templates/oscar/messages/unknow_error.html:5
+msgid "Close"
+msgstr "Sulje"
+
+#: searx/templates/entropage/base.html:60
+#: searx/templates/entropage/messages/no_results.html:4
+#: searx/templates/oscar/base.html:64
+#: searx/templates/oscar/messages/no_results.html:4
+#: searx/templates/simple/messages/no_results.html:4
+#: searx/templates/simple/results.html:32
+msgid "Error!"
+msgstr "Virhe!"
+
+#: searx/templates/entropage/index.html:10
+msgid "logo_index.png"
+msgstr ""
+
+#: searx/templates/entropage/infobox.html:39
+msgid "Read More on Wikipedia"
+msgstr ""
+
+#: searx/templates/entropage/macros.html:39
+msgid "Anonymous View"
+msgstr ""
+
+#: searx/templates/entropage/macros.html:41
+msgid ""
+"Visiting this website with Anonymous View may be a little slower, but it "
+"will enhance your privacy."
+msgstr ""
+
+#: searx/templates/entropage/macros.html:54
+#: searx/templates/legacy/result_templates/code.html:3
+#: searx/templates/legacy/result_templates/default.html:3
+#: searx/templates/legacy/result_templates/map.html:9
+#: searx/templates/oscar/macros.html:34 searx/templates/oscar/macros.html:48
+#: searx/templates/simple/macros.html:43
+msgid "cached"
+msgstr "välimuistissa"
+
+#: searx/templates/entropage/macros.html:56
+#: searx/templates/oscar/macros.html:36 searx/templates/oscar/macros.html:50
+#: searx/templates/simple/macros.html:43
+msgid "proxied"
+msgstr "välityspalvelimella"
+
+#: searx/templates/entropage/macros.html:98
+#: searx/templates/oscar/macros.html:92
+msgid "supported"
+msgstr "tuettu"
+
+#: searx/templates/entropage/macros.html:102
+#: searx/templates/oscar/macros.html:96
+msgid "not supported"
+msgstr "ei tuettu"
+
+#: searx/templates/entropage/navbar.html:11
+#: searx/templates/entropage/search.html:38
+msgid "App"
+msgstr ""
+
+#: searx/templates/entropage/navbar.html:13
+#: searx/templates/entropage/search.html:40
+#: searx/templates/entropage/search_full.html:71
+msgid "Terms of Service"
+msgstr ""
+
+#: searx/templates/entropage/navbar.html:14
+#: searx/templates/entropage/search.html:41
+msgid "Blog"
+msgstr ""
+
+#: searx/templates/entropage/navbar.html:15
+#: searx/templates/entropage/search.html:42
+msgid "Set As Homepage"
+msgstr ""
+
+#: searx/templates/entropage/policy.html:2
+#: searx/templates/entropage/policy.html:28
+msgid "policy"
+msgstr ""
+
+#: searx/templates/entropage/policy.html:32
+#, fuzzy
+msgid "privacy"
+msgstr "Yksityisyys"
+
+#: searx/templates/entropage/policy.html:51
+msgid ""
+"to have a look. As you can see in your browser, there is no\n"
+"                cookie in LeakZero."
+msgstr ""
+
+#: searx/templates/entropage/policy.html:85
+msgid ""
+"LeakZero Search never collects users' personal information, this is the "
+"cornerstone of our privacy policy.  Bellow of this page will further explain "
+"that you need to know exactly."
+msgstr ""
+
+#: searx/templates/entropage/preferences.html:13
+#: searx/templates/entropage/preferences.html:22
+#: searx/templates/oscar/preferences.html:13
+#: searx/templates/oscar/preferences.html:22
+#: searx/templates/simple/preferences.html:32
+msgid "General"
+msgstr "Yleiset"
+
+#: searx/templates/entropage/preferences.html:14
+#: searx/templates/entropage/preferences.html:139
+#: searx/templates/oscar/preferences.html:14
+#: searx/templates/oscar/preferences.html:147
+#: searx/templates/simple/preferences.html:89
+msgid "Engines"
+msgstr "Hakukoneet"
+
+#: searx/templates/entropage/preferences.html:15
+#: searx/templates/entropage/preferences.html:212
+#: searx/templates/oscar/preferences.html:15
+#: searx/templates/oscar/preferences.html:220
+msgid "Plugins"
+msgstr "Lisäosat"
+
+#: searx/templates/entropage/preferences.html:16
+#: searx/templates/entropage/preferences.html:238
+#: searx/templates/oscar/preferences.html:16
+#: searx/templates/oscar/preferences.html:246
+msgid "Answerers"
+msgstr "Vastaajat"
+
+#: searx/templates/entropage/preferences.html:17
+#: searx/templates/entropage/preferences.html:265
+#: searx/templates/oscar/preferences.html:17
+#: searx/templates/oscar/preferences.html:273
+#: searx/templates/simple/preferences.html:167
+msgid "Cookies"
+msgstr "Evästeet"
+
+#: searx/templates/entropage/preferences.html:42
+#: searx/templates/oscar/preferences.html:42
+#: searx/templates/simple/preferences.html:48
+msgid "What language do you prefer for search?"
+msgstr "Millä kielellä haluat etsiä ensisijaisesti?"
+
+#: searx/templates/entropage/preferences.html:48
+#: searx/templates/oscar/preferences.html:48
+#: searx/templates/simple/preferences.html:141
+msgid "Change the language of the layout"
+msgstr "Vaihda asettelun kieltä"
+
+#: searx/templates/entropage/preferences.html:58
+#: searx/templates/oscar/preferences.html:58
+#: searx/templates/simple/preferences.html:60
+msgid "Find stuff as you type"
+msgstr "Löydä tuloksia kirjoittaessasi"
+
+#: searx/templates/entropage/preferences.html:69
+#: searx/templates/oscar/preferences.html:69
+#: searx/templates/simple/preferences.html:218
+msgid "Proxying image results through searx"
+msgstr "Kuvatulokset välitetään searxin välityspalvelimen kautta"
+
+#: searx/templates/entropage/preferences.html:78
+#: searx/templates/oscar/preferences.html:78
+msgid ""
+"Change how forms are submited, <a href=\"http://en.wikipedia.org/wiki/"
+"Hypertext_Transfer_Protocol#Request_methods\" rel=\"external\">learn more "
+"about request methods</a>"
+msgstr ""
+"Muuta tapaa, miten lomaketiedot välitetään. <a href=\"http://en.wikipedia."
+"org/wiki/Hypertext_Transfer_Protocol#Request_methods\" rel=\"external"
+"\">Lisätietoja eri välitystavoista.</a>"
+
+#: searx/templates/entropage/preferences.html:87
+#: searx/templates/oscar/preferences.html:87
+#: searx/templates/simple/preferences.html:71
+msgid "Filter content"
+msgstr "Suodata hakutulosten sisältöä"
+
+#: searx/templates/entropage/preferences.html:97
+#: searx/templates/oscar/preferences.html:97
+#: searx/templates/simple/preferences.html:152
+msgid "Change searx layout"
+msgstr "Muuta searxin asettelua"
+
+#: searx/templates/entropage/preferences.html:106
+#: searx/templates/legacy/preferences.html:83
+#: searx/templates/oscar/preferences.html:114
+#: searx/templates/simple/preferences.html:155
+msgid "Results on new tabs"
+msgstr "Tulokset uusiin välilehtiin"
+
+#: searx/templates/entropage/preferences.html:110
+#: searx/templates/legacy/preferences.html:86
+#: searx/templates/oscar/preferences.html:118
+#: searx/templates/simple/preferences.html:158
+msgid "On"
+msgstr "Päällä"
+
+#: searx/templates/entropage/preferences.html:111
+#: searx/templates/legacy/preferences.html:87
+#: searx/templates/oscar/preferences.html:119
+#: searx/templates/simple/preferences.html:159
+msgid "Off"
+msgstr "Pois"
+
+#: searx/templates/entropage/preferences.html:115
+#: searx/templates/oscar/preferences.html:123
+#: searx/templates/simple/preferences.html:75
+msgid "Open Access DOI resolver"
+msgstr "Open Access DOI -selvitin"
+
+#: searx/templates/entropage/preferences.html:116
+#: searx/templates/oscar/preferences.html:124
+#: searx/templates/simple/preferences.html:85
+msgid ""
+"Redirect to open-access versions of publications when available (plugin "
+"required)"
+msgstr ""
+"Uudelleenohjaa julkaisujen open-access-versioihin kun mahdollista (vaatii "
+"liitännäisen)"
+
+#: searx/templates/entropage/preferences.html:156
+#: searx/templates/entropage/preferences.html:168
+#: searx/templates/oscar/preferences.html:164
+#: searx/templates/oscar/preferences.html:176
+#: searx/templates/simple/preferences.html:101
+msgid "Shortcut"
+msgstr "Oikoreitti"
+
+#: searx/templates/entropage/preferences.html:157
+#: searx/templates/entropage/preferences.html:167
+#: searx/templates/oscar/preferences.html:165
+#: searx/templates/oscar/preferences.html:175
+msgid "Selected language"
+msgstr "Valittu kieli"
+
+#: searx/templates/entropage/preferences.html:159
+#: searx/templates/entropage/preferences.html:165
+#: searx/templates/oscar/preferences.html:167
+#: searx/templates/oscar/preferences.html:173
+#: searx/templates/simple/preferences.html:104
+msgid "Time range"
+msgstr "Aikaväli"
+
+#: searx/templates/entropage/preferences.html:160
+#: searx/templates/entropage/preferences.html:164
+#: searx/templates/oscar/preferences.html:168
+#: searx/templates/oscar/preferences.html:172
+#: searx/templates/simple/preferences.html:105
+msgid "Avg. time"
+msgstr ""
+"Keskimääräinen\n"
+"aika"
+
+#: searx/templates/entropage/preferences.html:161
+#: searx/templates/entropage/preferences.html:163
+#: searx/templates/oscar/preferences.html:169
+#: searx/templates/oscar/preferences.html:171
+#: searx/templates/simple/preferences.html:106
+msgid "Max time"
+msgstr "Enimmäisaika"
+
+#: searx/templates/entropage/preferences.html:241
+#: searx/templates/oscar/preferences.html:249
+msgid "This is the list of searx's instant answering modules."
+msgstr "Tämä on luettelo searxin vastaajamoduuleista."
+
+#: searx/templates/entropage/preferences.html:245
+#: searx/templates/oscar/preferences.html:253
+msgid "Name"
+msgstr "Nimi"
+
+#: searx/templates/entropage/preferences.html:246
+#: searx/templates/oscar/preferences.html:254
+msgid "Keywords"
+msgstr "Avainsanat"
+
+#: searx/templates/entropage/preferences.html:247
+#: searx/templates/oscar/preferences.html:255
+msgid "Description"
+msgstr "Kuvaus"
+
+#: searx/templates/entropage/preferences.html:248
+#: searx/templates/oscar/preferences.html:256
+msgid "Examples"
+msgstr "Esimerkit"
+
+#: searx/templates/entropage/preferences.html:268
+#: searx/templates/oscar/preferences.html:276
+#: searx/templates/simple/preferences.html:170
+msgid ""
+"This is the list of cookies and their values searx is storing on your "
+"computer."
+msgstr ""
+"Ohessa on lista evästeistä ja niiden arvoista, joita searx tallentaa "
+"tietokoneellesi."
+
+#: searx/templates/entropage/preferences.html:269
+#: searx/templates/oscar/preferences.html:277
+#: searx/templates/simple/preferences.html:171
+msgid "With that list, you can assess searx transparency."
+msgstr "Tämän luettelon avulla voit arvioida searxin läpinäkyvyyden."
+
+#: searx/templates/entropage/preferences.html:274
+#: searx/templates/oscar/preferences.html:282
+#: searx/templates/simple/preferences.html:177
+msgid "Cookie name"
+msgstr "Evästeen nimi"
+
+#: searx/templates/entropage/preferences.html:275
+#: searx/templates/oscar/preferences.html:283
+#: searx/templates/simple/preferences.html:178
+msgid "Value"
+msgstr "Arvo"
+
+#: searx/templates/entropage/preferences.html:294
+#: searx/templates/oscar/preferences.html:302
+#: searx/templates/simple/preferences.html:191
+msgid "Search URL of the currently saved preferences"
+msgstr "Nykyisten asetusten hakuosoite"
+
+#: searx/templates/entropage/preferences.html:294
+#: searx/templates/oscar/preferences.html:302
+#: searx/templates/simple/preferences.html:195
+msgid ""
+"Note: specifying custom settings in the search URL can reduce privacy by "
+"leaking data to the clicked result sites."
+msgstr ""
+"Huomio: mukautettujen asetusten hakuosoite voi heikentää yksityisyyttä "
+"vuotamalla tietoja niille sivustoille, joihin kohdistuvia tuloksia "
+"napsautetaan."
+
+#: searx/templates/entropage/results.html:17
+#: searx/templates/oscar/results.html:17
+msgid "Search results"
+msgstr "Hakutulokset"
+
+#: searx/templates/entropage/results.html:21
+#: searx/templates/oscar/results.html:21 searx/templates/simple/results.html:91
+msgid "Try searching for:"
+msgstr "Yritä etsiä:"
+
+#: searx/templates/entropage/results.html:134
+#, fuzzy
+msgid "Search Results Optimization"
+msgstr "Hakutulokset"
+
+#: searx/templates/entropage/results.html:138
+msgid "We find about"
+msgstr ""
+
+#: searx/templates/entropage/results.html:138
+#, fuzzy
+msgid "results"
+msgstr "Hakutulokset"
+
+#: searx/templates/entropage/results.html:145
+msgid "Anonymous View Tips"
+msgstr ""
+
+#: searx/templates/entropage/results.html:148
+msgid ""
+"Because Anonymous View is not compatible with some website, it may result in "
+"script error prompts or page garbled."
+msgstr ""
+
+#: searx/templates/entropage/search.html:21
+#: searx/templates/entropage/search_full.html:14
+#: searx/templates/oscar/search.html:8
+#: searx/templates/oscar/search_full.html:11
+#: searx/templates/simple/search.html:6
+msgid "Start search"
+msgstr "Aloita haku"
+
+#: searx/templates/entropage/search.html:28
+msgid "The search engine doesn't track you."
+msgstr ""
+
+#: searx/templates/entropage/search_full.html:22
+#, fuzzy
+msgid "The search engine"
+msgstr "Nyt käytetyt hakukoneet"
+
+#: searx/templates/entropage/search_full.html:23
+msgid "doesn't track"
+msgstr ""
+
+#: searx/templates/entropage/search_full.html:24
+msgid "you."
+msgstr ""
+
+#: searx/templates/entropage/search_full.html:31
+msgid "What we supply"
+msgstr ""
+
+#: searx/templates/entropage/search_full.html:37
+#: searx/templates/entropage/search_full.html:41
+#, fuzzy
+msgid "Aggregation"
+msgstr "Ehdotukset"
+
+#: searx/templates/entropage/search_full.html:38
+msgid ""
+"We will provide efficient search service with aggregated results from more "
+"search engines and sources."
+msgstr ""
+
+#: searx/templates/entropage/search_full.html:46
+#: searx/templates/simple/preferences.html:199
+msgid "Privacy"
+msgstr "Yksityisyys"
+
+#: searx/templates/entropage/search_full.html:47
+msgid ""
+"We will never collect any personally identifiable information from your "
+"search query, and also we supply <span class=\"b\">Anonymous View </span> "
+"function, which makes it possible to visit websites completely privately."
+msgstr ""
+
+#: searx/templates/entropage/search_full.html:50
+#, fuzzy
+msgid " Privacy"
+msgstr "Yksityisyys"
+
+#: searx/templates/entropage/search_full.html:55
+#: searx/templates/entropage/search_full.html:59
+msgid "No Ads"
+msgstr ""
+
+#: searx/templates/entropage/search_full.html:56
+msgid ""
+"We have filtered all tracking scripts and parts of advertisements，protect "
+"you from target advertising harassment."
+msgstr ""
+
+#: searx/templates/entropage/search_full.html:69
+#: searx/templates/oscar/base.html:92 searx/templates/simple/base.html:56
+msgid "Powered by"
+msgstr "Taustavoimana"
+
+#: searx/templates/entropage/search_full.html:69
+#: searx/templates/oscar/base.html:92 searx/templates/simple/base.html:56
+msgid "a privacy-respecting, hackable metasearch engine"
+msgstr "yksityisyyttä kunnioittava, muokattava metahakukone"
+
+#: searx/templates/entropage/search_full.html:72
+msgid "京ICP备18016546号 京公网安备11010502036987号"
+msgstr ""
+
+#: searx/templates/entropage/stats.html:2 searx/templates/oscar/stats.html:2
+msgid "stats"
+msgstr "tilastot"
+
+#: searx/templates/entropage/time-range.html:3
+#: searx/templates/oscar/time-range.html:3
+#: searx/templates/simple/time-range.html:3
+msgid "Anytime"
+msgstr "Milloin tahansa"
+
+#: searx/templates/entropage/time-range.html:6
+#: searx/templates/oscar/time-range.html:6
+#: searx/templates/simple/time-range.html:6
+msgid "Last day"
+msgstr "Viimeinen päivä"
+
+#: searx/templates/entropage/time-range.html:9
+#: searx/templates/oscar/time-range.html:9
+#: searx/templates/simple/time-range.html:9
+msgid "Last week"
+msgstr "Viimeinen viikko"
+
+#: searx/templates/entropage/time-range.html:12
+#: searx/templates/oscar/time-range.html:12
+#: searx/templates/simple/time-range.html:12
+msgid "Last month"
+msgstr "Viimeinen kuukausi"
+
+#: searx/templates/entropage/time-range.html:15
+#: searx/templates/oscar/time-range.html:15
+#: searx/templates/simple/time-range.html:15
+msgid "Last year"
+msgstr "Viimeinen vuosi"
+
+#: searx/templates/entropage/messages/first_time.html:6
+#: searx/templates/entropage/messages/no_data_available.html:3
+#: searx/templates/oscar/messages/first_time.html:6
+#: searx/templates/oscar/messages/no_data_available.html:3
+msgid "Heads up!"
+msgstr "Pää pystyyn!"
+
+#: searx/templates/entropage/messages/first_time.html:7
+#: searx/templates/oscar/messages/first_time.html:7
+msgid "It look like you are using searx first time."
+msgstr "Vaikuttaa siltä, että käytät searxia ensimmäistä kertaa."
+
+#: searx/templates/entropage/messages/no_cookies.html:3
+#: searx/templates/oscar/messages/no_cookies.html:3
+msgid "Information!"
+msgstr "Huomio!"
+
+#: searx/templates/entropage/messages/no_cookies.html:4
+#: searx/templates/oscar/messages/no_cookies.html:4
+msgid "currently, there are no cookies defined."
+msgstr "Evästeitä ei ole määritetty tällä hetkellä."
+
+#: searx/templates/entropage/messages/no_data_available.html:4
+#: searx/templates/oscar/messages/no_data_available.html:4
+msgid "There is currently no data available. "
+msgstr "Tietoja ei ole juuri nyt saatavilla."
+
+#: searx/templates/entropage/messages/no_results.html:4
+#: searx/templates/oscar/messages/no_results.html:4
+#: searx/templates/simple/messages/no_results.html:4
+msgid "Engines cannot retrieve results."
+msgstr "Moottorit eivät voi palauttaa tuloksia."
+
+#: searx/templates/entropage/messages/no_results.html:10
+#: searx/templates/oscar/messages/no_results.html:10
+#: searx/templates/simple/messages/no_results.html:10
+msgid "Please, try again later or find another searx instance."
+msgstr "Yritä myöhemmin uudelleen tai kokeile toista searx-instanssia."
+
+#: searx/templates/entropage/messages/no_results.html:14
+#: searx/templates/oscar/messages/no_results.html:14
+#: searx/templates/simple/messages/no_results.html:14
+msgid "Sorry!"
+msgstr "Pahoittelut!"
+
+#: searx/templates/entropage/messages/no_results.html:15
+#: searx/templates/oscar/messages/no_results.html:15
+#: searx/templates/simple/messages/no_results.html:15
+msgid ""
+"we didn't find any results. Please use another query or search in more "
+"categories."
+msgstr ""
+"Yhtäkään hakuasi vastaavaa tulosta ei löytynyt. Etsi käyttäen eri hakuehtoja "
+"tai ulota hakusi nykyistä useampiin eri luokkiin."
+
+#: searx/templates/entropage/messages/save_settings_successfull.html:7
+#: searx/templates/oscar/messages/save_settings_successfull.html:7
+msgid "Well done!"
+msgstr "Hyvin tehty!"
+
+#: searx/templates/entropage/messages/save_settings_successfull.html:8
+#: searx/templates/oscar/messages/save_settings_successfull.html:8
+msgid "Settings saved successfully."
+msgstr "Asetukset tallennettiin onnistuneesti"
+
+#: searx/templates/entropage/messages/unknow_error.html:7
+#: searx/templates/oscar/messages/unknow_error.html:7
+msgid "Oh snap!"
+msgstr "Voi ei!"
+
+#: searx/templates/entropage/messages/unknow_error.html:8
+#: searx/templates/oscar/messages/unknow_error.html:8
+msgid "Something went wrong."
+msgstr "Jokin meni pieleen."
+
+#: searx/templates/entropage/result_templates/default.html:7
+#: searx/templates/oscar/result_templates/default.html:7
+#: searx/templates/simple/result_templates/default.html:6
+msgid "show media"
+msgstr "näytä media"
+
+#: searx/templates/entropage/result_templates/default.html:7
+#: searx/templates/oscar/result_templates/default.html:7
+#: searx/templates/simple/result_templates/default.html:6
+msgid "hide media"
+msgstr "piilota media"
+
+#: searx/templates/entropage/result_templates/images.html:35
+#: searx/templates/oscar/result_templates/images.html:30
+msgid "Get image"
+msgstr "Avaa kuva"
+
+#: searx/templates/entropage/result_templates/images.html:38
+#: searx/templates/oscar/result_templates/images.html:33
+msgid "View source"
+msgstr "Näytä lähde"
+
+#: searx/templates/entropage/result_templates/map.html:7
+#: searx/templates/oscar/result_templates/map.html:7
+#: searx/templates/simple/result_templates/map.html:7
+msgid "show map"
+msgstr "näytä kartta"
+
+#: searx/templates/entropage/result_templates/map.html:7
+#: searx/templates/oscar/result_templates/map.html:7
+#: searx/templates/simple/result_templates/map.html:7
+msgid "hide map"
+msgstr "piilota kartta"
+
+#: searx/templates/entropage/result_templates/map.html:11
+#: searx/templates/oscar/result_templates/map.html:11
+#: searx/templates/simple/result_templates/map.html:11
+msgid "show details"
+msgstr "näytä tiedot"
+
+#: searx/templates/entropage/result_templates/map.html:11
+#: searx/templates/oscar/result_templates/map.html:11
+#: searx/templates/simple/result_templates/map.html:11
+msgid "hide details"
+msgstr "piilota tiedot"
+
+#: searx/templates/entropage/result_templates/torrent.html:7
+#: searx/templates/oscar/result_templates/torrent.html:7
+#: searx/templates/simple/result_templates/torrent.html:11
+msgid "Filesize"
+msgstr "Tiedostokoko"
+
+#: searx/templates/entropage/result_templates/torrent.html:9
+#: searx/templates/oscar/result_templates/torrent.html:9
+#: searx/templates/simple/result_templates/torrent.html:12
+msgid "Bytes"
+msgstr "Tavua"
+
+#: searx/templates/entropage/result_templates/torrent.html:10
+#: searx/templates/oscar/result_templates/torrent.html:10
+#: searx/templates/simple/result_templates/torrent.html:13
+msgid "kiB"
+msgstr "kiB"
+
+#: searx/templates/entropage/result_templates/torrent.html:11
+#: searx/templates/oscar/result_templates/torrent.html:11
+#: searx/templates/simple/result_templates/torrent.html:14
+msgid "MiB"
+msgstr "MiB"
+
+#: searx/templates/entropage/result_templates/torrent.html:12
+#: searx/templates/oscar/result_templates/torrent.html:12
+#: searx/templates/simple/result_templates/torrent.html:15
+msgid "GiB"
+msgstr "GiB"
+
+#: searx/templates/entropage/result_templates/torrent.html:13
+#: searx/templates/oscar/result_templates/torrent.html:13
+#: searx/templates/simple/result_templates/torrent.html:16
+msgid "TiB"
+msgstr "TiB"
+
+#: searx/templates/entropage/result_templates/torrent.html:15
+#: searx/templates/oscar/result_templates/torrent.html:15
+#: searx/templates/simple/result_templates/torrent.html:20
+msgid "Number of Files"
+msgstr "Tiedostojen määrä"
+
+#: searx/templates/entropage/result_templates/videos.html:7
+#: searx/templates/oscar/result_templates/videos.html:7
+#: searx/templates/simple/result_templates/videos.html:6
+msgid "show video"
+msgstr "näytä video"
+
+#: searx/templates/entropage/result_templates/videos.html:7
+#: searx/templates/oscar/result_templates/videos.html:7
+#: searx/templates/simple/result_templates/videos.html:6
+msgid "hide video"
+msgstr "piilota video"
+
+#: searx/templates/legacy/categories.html:8
+#: searx/templates/simple/categories.html:6
+msgid "Click on the magnifier to perform search"
+msgstr "Napsauta suurennuslasia suorittaaksesi haun"
+
+#: searx/templates/oscar/base.html:93 searx/templates/simple/base.html:57
+msgid "Source code"
+msgstr ""
+
+#: searx/templates/oscar/base.html:94 searx/templates/simple/base.html:58
+msgid "Issue tracker"
+msgstr ""
+
+#: searx/templates/oscar/base.html:95 searx/templates/simple/base.html:59
+msgid "Public instances"
+msgstr ""
+
+#: searx/templates/oscar/preferences.html:106
+#: searx/templates/oscar/preferences.html:112
+msgid "Choose style for this theme"
+msgstr "Valitse tyyli tälle teemalle"
+
+#: searx/templates/oscar/preferences.html:106
+#: searx/templates/oscar/preferences.html:112
+msgid "Style"
+msgstr "Tyyli"
+
+#: searx/templates/oscar/results.html:100
+#: searx/templates/simple/results.html:32
+msgid "Engines cannot retrieve results"
+msgstr "Moottorit eivät voi palauttaa tuloksia"
+
+#: searx/templates/oscar/results.html:131
+msgid "Links"
+msgstr "Linkit"
+
+#: searx/templates/pix-art/results.html:28
+msgid "Load more..."
+msgstr "Lataa lisää..."
+
+#: searx/templates/simple/base.html:31
+msgid "No item found"
+msgstr "Tietuetta ei löytynyt"
+
+#: searx/templates/simple/languages.html:2
+#: searx/templates/simple/preferences.html:42
+msgid "Default language"
+msgstr "Oletuskieli"
+
+#: searx/templates/simple/preferences.html:102
+msgid "Supports selected language"
+msgstr "Tukee valittua kieltä"
+
+#: searx/templates/simple/preferences.html:131
+msgid "User interface"
+msgstr "Käyttöliittymä"
+
+#: searx/templates/simple/search.html:5
+#, fuzzy
+msgid "Clear search"
+msgstr "Aloita haku"
+
+#: searx/templates/simple/result_templates/map.html:47
+#, fuzzy
+msgid "Loading..."
+msgstr "Lataa lisää..."

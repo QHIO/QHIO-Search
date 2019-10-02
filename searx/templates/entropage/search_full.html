@@ -1,0 +1,76 @@
+{% from 'entropage/macros.html' import icon %}
+
+<form method="{{ method or 'POST' }}" action="{{ url_for('index') }}" id="search_form" role="search">
+    {% if rtl %}
+    <div class="input-group">
+    {% else %}
+    <!-- col-md-6 col-md-offset-3 -->
+    <div class="input-group search-container full">
+    {% endif %}
+        <input type="search" name="q" class="form-control input-lg autofocus" id="q" placeholder="{{ _('Search for...') }}" autocomplete="off" value="{{ q }}">
+        <a href="javascript:void(0);" class="delete" style="background: url({{ url_for('static', filename='img/delete.png') }}) no-repeat; background-size: contain;">x</a>
+        <span class="input-group-btn">
+            <button type="submit" class="btn input-lg" style="background: url({{ url_for('static', filename='img/icon_search.png') }}) no-repeat center center; background-size: 20px 20px;">
+                {{ _('Start search') }}
+            </button>
+        </span>
+    </div>
+    <div class="col-md-8 col-md-offset-2  advanced" style="display: none">
+        {% include 'entropage/advanced.html' %}
+    </div>
+    <div class="slogan col-md-6 col-md-offset-3">
+        {{ _("The search engine") }}
+        <a href="{{ url_for('about') }}#policy" class="b">{{ _("doesn't track") }}</a>
+        {{ _("you.") }}
+    </div>
+</form><!-- / #search_form_full -->
+
+<div class="footer">
+    <div class="enjoy">
+        <div class="s">
+            <h2>{{ _('What we supply') }}</h2>
+        </div>
+        <div class="btns">
+            <a href="javascript:void(0)" class="f-btn r" style="background-image: url({{ url_for('static', filename='img/r.png') }})">
+                <div class="f-modal">
+                    <div class="content">
+                        <h2>{{ _('Aggregation') }}</h2>
+                        <p>{{ _('We will provide efficient search service with aggregated results from more search engines and sources.') }}</p>
+                    </div>
+                </div>
+                {{ _('Aggregation') }}
+            </a>
+            <a href="javascript:void(0)" class="f-btn b" style="background-image: url({{ url_for('static', filename='img/b.png') }})">
+                <div class="f-modal">
+                    <div class="content">
+                        <h2>{{ _('Privacy') }}</h2>
+                        <p>{{ _('We will never collect any personally identifiable information from your search query, and also we supply <span class=\"b\">Anonymous View </span> function, which makes it possible to visit websites completely privately.') }}</p>
+                    </div>
+                </div>
+                {{ _(' Privacy') }}
+            </a>
+            <a href="javascript:void(0)" class="f-btn g" style="background-image: url({{ url_for('static', filename='img/g.png') }})">
+                <div class="f-modal">
+                    <div class="content">
+                        <h2>{{ _('No Ads') }}</h2>
+                        <p>{{ _('We have filtered all tracking scripts and parts of advertisements，protect you from target advertising harassment.') }}</p>
+                    </div>
+                </div>
+                {{ _('No Ads') }}
+            </a>
+        </div>
+    </div>
+
+    <div class="container">
+        {% block footer %}
+        {% endblock %}
+        <p class="text-muted">
+            <small>
+                {{ _('Powered by') }} <a href="https://github.com/entropage/searx/">searx</a> - {{ _('a privacy-respecting, hackable metasearch engine') }}<br/>
+                <a href="{{ url_for('about') }}#policy">{{ _('Privacy Policy') }}</a> |
+                <a href="{{ url_for('about') }}#agreemt">{{ _('Terms of Service') }}</a><br/>
+                {{ _('京ICP备18016546号 京公网安备11010502036987号') }}
+            </small>
+        </p>
+    </div>
+</div>

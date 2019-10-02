@@ -1,0 +1,52 @@
+{% from 'entropage/macros.html' import icon %}
+<style>
+  .searx-navbar {display: none;}
+</style>
+<div class="search-page">
+  <form method="{{ method or 'POST' }}" action="{{ url_for('index') }}" class="search_form" id="search_form" role="search">
+    <div class="clearfix">
+      <div class="logo-container">
+        <div class="col-md-offset-1">
+            <a href="/" class="link">
+              <img src="{{ url_for('static', filename='img/logo_search_page.png') }}" alt="logo" />
+            </a>
+        </div>
+      </div>
+      <div class="col-xs-12 col-md-8">
+        <div class="input-group search-margin search-container nofull">
+          <input type="search" name="q" class="form-control" id="q" placeholder="{{ _('Search for...') }}" autocomplete="off" value="{{ q }}">
+          <a href="javascript:void(0);" class="delete" style="background: url({{ url_for('static', filename='img/delete.png') }}) no-repeat; background-size: contain;">x</a>
+          <span class="input-group-btn">
+              <button type="submit" class="btn input-lg" style="background: url({{ url_for('static', filename='img/icon_search.png') }}) no-repeat center center; background-size: 20px 20px;">
+                  {{ _('Start search') }}
+              </button>
+          </span>
+        </div>
+      </div>
+
+      <div class="clearfix">
+        <h2 class="slogan2">{{ _("The search engine doesn't track you.") }}</h2>
+        <div class="entro-navbar">
+            <a href="javascript:void(0)" class="entro-nav-btn"
+                style="background-image: url({{ url_for('static', filename='img/icon_nav.png') }});background-repeat: no-repeat; background-size: 30px auto;"
+                data-bg="{{ url_for('static', filename='img/icon_nav.png') }}"
+                data-active-bg="{{ url_for('static', filename='img/icon_nav_active.png') }}"
+            ></a>
+
+            <ul class="entro-nav" style="display: none;">
+                <li><a href="{{ url_for('about') }}">{{ _('About') }}</a></li>
+                <!-- <li><a href="https://www.leakzero.com#download">{{ _('App') }}</a></li> -->
+                <li><a href="{{ url_for('about') }}#policy">{{ _('Privacy Policy') }}</a></li>
+                <li><a href="{{ url_for('about') }}#agreemt">{{ _('Terms of Service') }}</a></li>
+                <li><a href="https://www.leakzero.com/articles">{{ _('Blog') }}</a></li>
+                <li><a href="https://feed.leakzero.com/post?index=68&type=help">{{ _('Set As Homepage') }}</a></li>
+            </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="">
+        {% include 'entropage/categories.html' %}
+    </div>
+  </form>
+</div>

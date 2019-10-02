@@ -1,0 +1,153 @@
+{% extends "entropage/base.html" %}
+{% macro search_form_attrs(pageno) -%}
+    {% for category in selected_categories %}<input type="hidden" name="category_{{ category }}" value="1"/>{% endfor %}
+    <input type="hidden" name="q" value="{{ q|e }}" />
+    <input type="hidden" name="pageno" value="{{ pageno }}" />
+    <input type="hidden" name="time_range" value="{{ time_range }}" />
+    <input type="hidden" name="language" value="{{ current_language }}" />
+{%- endmacro %}
+{%- macro search_url() %}{{ base_url }}?q={{ q|urlencode }}{% if selected_categories %}&amp;categories={{ selected_categories|join(",") | replace(' ','+') }}{% endif %}{% if pageno > 1 %}&amp;pageno={{ pageno }}{% endif %}{% if time_range %}&amp;time_range={{ time_range }}{% endif %}{% if current_language != 'all' %}&amp;language={{ current_language }}{% endif %}{% endmacro -%}
+
+{% block title %}{{ q|e }} - {% endblock %}
+
+{% block content %}
+    {% include 'entropage/search.html' %}
+    <div class="result-container">
+        <div class="col-sm-8" id="main_results">
+            <h1 class="sr-only">{{ _('Search results') }}</h1>
+
+            {% if corrections %}
+            <div class="result">
+                <span class="result_header text-muted form-inline pull-left suggestion_item">{{ _('Try searching for:') }}</span>
+                {% for correction in corrections %}
+                    <form method="{{ method or 'POST' }}" action="{{ url_for('index') }}" role="navigation" class="form-inline pull-left suggestion_item">
+                        <input type="hidden" name="q" value="{{ correction }}">
+                        <button type="submit" class="btn btn-default btn-xs">{{ correction }}</button>
+                    </form>
+                {% endfor %}
+            </div>
+            {% endif %}
+
+            {% if answers %}
+            {% for answer in answers %}
+            <div class="result">
+                <span>{{ answer }}</span>
+            </div>
+            {% endfor %}
+            {% endif %}
+
+            <div class="
+            {% if results and results[0]['template'] %}
+                {{ results[0].template|replace('.html', '') }}-container
+            {% else %}
+                default-container
+            {% endif %}
+            ">
+                {% for result in results %}
+                <!-- <div class="result {% if result['template'] %}result-{{ result.template|replace('.html', '') }}{% else %}result-default{% endif %}"> -->
+                    {% set index = loop.index %}
+                    {% if result.template %}
+                        {% include get_result_template('entropage', result['template']) %}
+                    {% else %}
+                        {% include 'entropage/result_templates/default.html' %}
+                    {% endif %}
+                <!-- </div> -->
+                {% endfor %}
+            </div>
+
+            {% if not results and not answers %}
+                {% include 'entropage/messages/no_results.html' %}
+            {% endif %}
+
+            <div class="clearfix"></div>
+
+            {% if paging %}
+            {% if rtl %}
+            <div id="pagination">
+                <div class="pull-left">
+                  <form method="{{ method or 'POST' }}" action="{{ url_for('index') }}" class="pull-left">
+                        {{ search_form_attrs(pageno+1) }}
+                        <button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-backward"></span> {{ _('next page') }}</button>
+                    </form>
+                </div>
+                <div class="pull-right">
+                    <form method="{{ method or 'POST' }}" action="{{ url_for('index') }}"  class="pull-left">
+                        {{ search_form_attrs(pageno-1) }}
+                        <button type="submit" class="btn btn-default" {% if pageno == 1 %}disabled{% endif %}><span class="glyphicon glyphicon-forward"></span> {{ _('previous page') }}</button>
+                    </form>
+                </div>
+            </div><!-- /#pagination -->
+            <div class="clearfix"></div>
+            {% else %}
+            <div id="pagination">
+                <div class="pull-left">
+                    <form method="{{ method or 'POST' }}" action="{{ url_for('index') }}" class="pull-left">
+                        {{ search_form_attrs(pageno-1) }}
+                        <button type="submit" class="btn" {% if pageno == 1 %}disabled{% endif %}>
+                            <span class="glyphicon glyphicon-backward"></span>
+                            {{ _('previous page') }}
+                        </button>
+                    </form>
+                </div>
+                <div class="pull-right">
+                    <form method="{{ method or 'POST' }}" action="{{ url_for('index') }}"  class="pull-left">
+                        {{ search_form_attrs(pageno+1) }}
+                        <button type="submit" class="btn">
+                            {{ _('next page') }}
+                            <span class="glyphicon glyphicon-forward"></span>
+                        </button>
+                    </form>
+                </div>
+            </div><!-- /#pagination -->
+            <div class="clearfix"></div>
+            {% endif %}
+            {% endif %}
+        </div><!-- /#main_results -->
+
+        <div class="col-sm-4" id="sidebar_results">
+            {% if infoboxes %}
+                {% for infobox in infoboxes %}
+                    {% if infobox.content %}
+                        {% include 'entropage/infobox.html' %}
+                    {% endif %}
+                {% endfor %}
+            {% endif %}
+
+            {% if suggestions %}
+            <div class="entro-panel panel panel-default">
+                <div class="panel-body">
+                    {% for suggestion in suggestions %}
+                    <form method="{{ method or 'POST' }}" action="{{ url_for('index') }}" role="navigation" class="form-inline pull-{% if rtl %}right{% else %}left{% endif %} suggestion_item">
+                        <input type="hidden" name="q" value="{{ suggestion }}">
+                        <button type="submit" class="btn btn-default btn-xs">{{ suggestion }}</button>
+                    </form>
+                    {% endfor %}
+                </div>
+                <div class="panel-heading">
+                    <h4 class="panel-title">{{ _('Suggestions') }}</h4>
+                </div>
+            </div>
+            {% endif %}
+
+            <div class="entro-panel panel panel-default">
+                <div class="panel-heading">
+                    <h4 class="panel-title">{{ _('Search Results Optimization') }}</h4>
+                </div>
+                <div class="panel-body">
+                    {% if number_of_results != '0' %}
+                        <p>{{ _('We find about') }}: <span style="font-weight: bold;">{{ number_of_results }}</span> {{ _('results') }}</p>
+                    {% endif %}
+                </div>
+            </div>
+
+            <div class="entro-panel panel panel-default">
+                <div class="panel-heading">
+                    <h4 class="panel-title">{{ _('Anonymous View Tips') }}</h4>
+                </div>
+                <div class="panel-body">
+                    <p>{{ _('Because Anonymous View is not compatible with some website, it may result in script error prompts or page garbled.') }}</p>
+                </div>
+            </div>
+        </div><!-- /#sidebar_results -->
+    </div>
+{% endblock %}
