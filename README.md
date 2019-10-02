@@ -31,15 +31,15 @@
 **15723078568@qq.com**
 
 ## 安装环境
-**软件要求 : Python3 （建议Py3.5，经过测试发现Py3.7存在插件兼容性bug) **
+**软件要求 : Python3 （建议Py3.5，经过测试发现Py3.7存在插件兼容性bug)**
 **系统要求 : Linux各大主流发行版本 （建议Ubuntu，Debian，CentOS）**
 
 ## 安装方式
-**安装python3环境，使用python3运行启航搜索的代码。**
-**pip3 install -r requirements.txt**
-**在正式运行代码前，请正确设置配置文件settings_et_dev.yml。（您需要修改监听端口，密钥等信息）**
-**启航搜索使用了redis 作为缓存，使用sentry收集异常信息。**
-**设置完成后，可在测试环境执行 **
-**env FLASK_APP=searx.webapp FLASK_ENV=development FLASK_DEBUG=1 SEARX_SETTINGS_PATH=settings_et_dev.yml python -m flask run**
+**安装python3环境，使用python3运行启航搜索的代码。
+pip3 install -r requirements.txt
+在正式运行代码前，请正确设置配置文件settings_et_dev.yml。（您需要修改监听端口，密钥等信息）
+启航搜索使用了redis 作为缓存，使用sentry收集异常信息。
+设置完成后，可在测试环境执行
+env FLASK_APP=searx.webapp FLASK_ENV=development FLASK_DEBUG=1 SEARX_SETTINGS_PATH=settings_et_dev.yml python -m flask run**
 
 ## 如果遇到问题，请及时反馈，谢谢
