@@ -49,13 +49,13 @@ requirements.txt安装所需要的运行拓展库。
 （2）设置配置文件settings_et_dev.yml
 （您需要修改监听端口，密钥等信息）
 （3）运行
-env 
-FLASK_APP=searx.webapp 
-FLASK_ENV=development 
-FLASK_DEBUG=1 
-SEARX_SETTINGS_PATH
-=settings_et_dev.yml 
-python -m flask run
+'env '
+'FLASK_APP=searx.webapp '
+'FLASK_ENV=development '
+'FLASK_DEBUG=1 '
+'SEARX_SETTINGS_PATH'
+'=settings_et_dev.yml '
+'python -m flask run'
 在本地端口进行测试
 
 ## 如果在安装过程中遇到任何问题，请先尝试在百度等网站
