@@ -36,8 +36,8 @@
 **2956733205**
 ## 安装环境
 **【软件要求】
-Python3**
-**【系统要求】 
+Python3
+【系统要求】 
 Linux各大主流发行版本即可 
 （建议选择Ubuntu，Debian，CentOS等较为知名的版本
 便于您在遇到问题之后更快地检索问题与解决问题
@@ -45,12 +45,12 @@ Linux各大主流发行版本即可
 **
 
 ## 安装方式
-**（1）安装python3运行环境，根据
+**
+（1）安装python3运行环境，根据
 requirements.txt安装所需要的运行拓展库。
 （2）设置配置文件settings_et_dev.yml
 （您需要修改监听端口，密钥等信息）
->>启航搜索使用了redis 作为缓存，使用sentry收集异常信息。
-设置完成后，可在测试环境执行
+（2）运行
 env 
 FLASK_APP=searx.webapp 
 FLASK_ENV=development 
@@ -58,6 +58,8 @@ FLASK_DEBUG=1
 SEARX_SETTINGS_PATH
 =settings_et_dev.yml 
 python -m flask run**
+在本地端口进行测试
 
-**如果在安装过程中遇到任何问题，请先尝试在百度等网站
+如果在安装过程中遇到任何问题，请先尝试在百度等网站
 检索错误代码，如果不能解决，请及时反馈，谢谢**
+**
